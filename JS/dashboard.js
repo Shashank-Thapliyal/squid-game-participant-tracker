@@ -82,18 +82,34 @@ async function saveToDummyData(updatedData) {
 function renderParticipants(participantsList) {
     participantsContainer.innerHTML = "";
 
-    participantsList.forEach((p) => {
-        let card = `
-            <div class="participant-card ${p.status === "Eliminated" ? "eliminated" : ""}" onclick="viewProfile(${p.participant_number})">
-                <h3>#${p.participant_number}</h3>
-                <p>${p.name} - ${p.occupation}</p>
-                <p>Status: ${p.status}</p>
-                <p>Rounds Survived: ${p.rounds_survived}</p>
-            </div>
+    participantsList.forEach((p, index) => {
+        let card = document.createElement("div");
+        card.className = `participant-card ${p.status === "Eliminated" ? "eliminated" : ""}`;
+        card.innerHTML = `
+            <h3>#${p.participant_number}</h3>
+            <p>${p.name} - ${p.occupation}</p>
+            <p>Status: ${p.status}</p>
+            <p>Rounds Survived: ${p.rounds_survived}</p>
+            <button class="eliminate-btn" ${participants.length === 1 ? "disabled" : ""} onclick="eliminateParticipant(${index})">Eliminate</button>
         `;
-        participantsContainer.innerHTML += card;
+        participantsContainer.appendChild(card);
     });
 }
+
+function eliminateParticipant(index) {
+    if (participants.length > 1) {
+        let eliminatedParticipant = participants.splice(index, 1)[0];
+        eliminatedParticipant.status = "Eliminated";
+        eliminatedParticipants.push(eliminatedParticipant);
+
+        renderParticipants(participants);
+        updateChart();
+        updateLeaderboard();
+    } else {
+        alert("You cannot eliminate the last remaining participant!");
+    }
+}
+
 
 async function startNextRound() {
     if (currentRound >= maxRounds) return;

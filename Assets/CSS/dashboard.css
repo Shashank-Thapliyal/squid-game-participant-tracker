@@ -36,9 +36,6 @@ body {
     overflow: hidden;
 }
 
-.sidebar:hover {
-    width: 200px; /* Expands on hover */
-}
 
 .sidebar ul {
     list-style: none;
@@ -419,3 +416,83 @@ td {
         width: 100%;
     }
 }
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Participant Container */
+.participants-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.participant-card {
+    background: #1e1e1e;
+    border: 2px solid #ff3860;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(255, 56, 96, 0.3);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.participant-card:hover {
+    transform: scale(1.05);
+}
+
+.participant-card h3 {
+    color: #ff3860;
+    margin-bottom: 10px;
+}
+
+.participant-card p {
+    margin: 5px 0;
+}
+
+/* Eliminated Participant Style */
+.eliminated {
+    opacity: 0.5;
+    text-decoration: line-through;
+    border-color: #777;
+    box-shadow: none;
+}
+
+/* Eliminate Button */
+.eliminate-btn {
+    background-color: #ff3860;
+    border: none;
+    padding: 10px;
+    width: 80%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.eliminate-btn:hover {
+    background-color: #ff1e4a;
+}
+
+.eliminate-btn:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+

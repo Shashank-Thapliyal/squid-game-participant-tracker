@@ -12,6 +12,8 @@
 </head>
 <body id="dashboard">
     <body id="dashboard">
+       
+    
         <!-- Sidebar -->
         <div class="sidebar">
             <ul>
@@ -20,17 +22,17 @@
                     <span class="text">Home</span>
                 </li>
                 <li>
-                    <i class="fas fa-users"></i>
-                    <span class="text">Participants</span>
+                    <i onclick="resetGame()" class="fas fa-users"></i>
+                    <span class="text" >Restart</span>
                 </li>
 
                 <li onclick="openLeaderboardModal()">
                     <i class="fas fa-trophy"></i>
                     <span class="text">Leaderboard</span>
                 </li>
-                <li>
+                <li  onclick="openStatsModal()"       >
                     <i class="fas fa-chart-bar"></i>
-                    <span class="text"  onclick="openStatsModal()">Statistics</span>
+                    <span class="text" >Statistics</span>
                 </li>
             </ul>
         </div>
@@ -83,13 +85,6 @@
 
             <h1>Squid Game Tracker</h1>
 
-            <label for="filter">Select Filter:</label>
-            <select id="filter">
-                <option value="age">Age</option>
-                <option value="location">Location</option>
-                <option value="eliminations">Eliminations</option>
-            </select>
-
             <div class="chart-container">
                 <canvas id="chartCanvas"></canvas>
             </div>
@@ -127,6 +122,33 @@
         function closeLeaderboardModal() {
             document.getElementById('leaderboardModal').style.display = 'none';
         }
+
+        function resetGame(){
+            window.location = `./dashboard.html`
+        }
     </script>
+
+    
+<script>
+    // Toggle Sidebar Function
+    function toggleSidebar() {
+        const sidebar = document.getElementById('sidebar');
+        sidebar.classList.toggle('active');
+    }
+
+    // Remove hover effect on mobile
+    function removeHoverEffect() {
+        const sidebar = document.getElementById('sidebar');
+        if (window.innerWidth <= 768) {
+            sidebar.classList.remove('hover-enabled');
+        } else {
+            sidebar.classList.add('hover-enabled');
+        }
+    }
+
+    // Call the function on page load and window resize
+    window.addEventListener('resize', removeHoverEffect);
+    window.addEventListener('load', removeHoverEffect);
+</script>
 </body>
 </html>
