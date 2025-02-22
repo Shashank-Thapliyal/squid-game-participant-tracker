@@ -1,13 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
     const ctx = document.getElementById("chart").getContext("2d");
     const filter = document.getElementById("filter");
+    const remainingCountElement = document.getElementById("remainingCount");
 
     let chartInstance;
 
     fetch("./data.json")
         .then(response => response.json())
         .then(data => {
-            console.log("Data Loaded: ", data);  // Debugging step
+            console.log("Data Loaded: ", data);
             filter.addEventListener("change", () => updateChart(data));
             updateChart(data);
         })
@@ -19,47 +20,77 @@ document.addEventListener("DOMContentLoaded", () => {
         let labels = [];
         let dataset = [];
 
-        if (selectedFilter === "age") {
-            labels = data.map(participant => participant.name);
-            dataset = data.map(participant => participant.age);
-        } else if (selectedFilter === "location") {
-            const locationCounts = {};
-            data.forEach(participant => {
-                locationCounts[participant.location] = (locationCounts[participant.location] || 0) + 1;
-            });
-            labels = Object.keys(locationCounts);
-            dataset = Object.values(locationCounts);
-        } else if (selectedFilter === "eliminations") {
-            const rounds = {};
-            data.filter(p => p.status === "Eliminated").forEach(participant => {
+        // Track eliminations per round
+        const rounds = {};
+        data.forEach(participant => {
+            if (participant.status === "Eliminated") {
                 rounds[participant.rounds_survived] = (rounds[participant.rounds_survived] || 0) + 1;
-            });
-            labels = Object.keys(rounds).sort((a, b) => a - b);
-            dataset = labels.map(key => rounds[key]);
-        }
+            }
+        });
 
+        // Get sorted round numbers
+        labels = Object.keys(rounds).sort((a, b) => a - b);
+        dataset = labels.map(round => rounds[round]);
+
+        // Track remaining participants per round
+        let totalParticipants = data.length;
+        let remainingParticipants = totalParticipants;
+        let remainingDataset = [];
+
+        labels.forEach(round => {
+            remainingParticipants -= rounds[round] || 0;
+            remainingDataset.push(remainingParticipants);
+        });
+
+        // Update remaining participants count
+        remainingCountElement.textContent = `Participants Remaining: ${remainingParticipants}`;
+
+        // Destroy previous chart
         if (chartInstance) {
             chartInstance.destroy();
         }
 
-        console.log("Labels:", labels);
-        console.log("Dataset:", dataset);
-
+        // Create new chart
         chartInstance = new Chart(ctx, {
             type: "line",
             data: {
                 labels: labels,
-                datasets: [{
-                    label: selectedFilter.replace(/^\w/, c => c.toUpperCase()),
-                    data: dataset,
-                    borderColor: "#e93e7d",
-                    backgroundColor: "rgba(0, 0, 255, 0.1)",
-                    fill: true
-                }]
+                datasets: [
+                    {
+                        label: "Eliminations per Round",
+                        data: dataset,
+                        borderColor: "#e93e7d",
+                        backgroundColor: "rgba(233, 62, 125, 0.2)",
+                        fill: true
+                    },
+                    {
+                        label: "Participants Remaining",
+                        data: remainingDataset,
+                        borderColor: "#007bff",
+                        backgroundColor: "rgba(0, 123, 255, 0.2)",
+                        fill: true
+                    }
+                ]
             },
             options: {
                 responsive: true,
-                maintainAspectRatio: false
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: "Rounds",
+                            font: { size: 14 }
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: "Number of Participants",
+                            font: { size: 14 }
+                        }
+                    }
+                }
             }
         });
     }
