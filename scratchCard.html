@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scratch Card</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to bottom, #090a1a, #17132e, #1c0c2e);
+            flex-direction: column;
+        }
+        .scratch-card-container {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            background: white;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+            transform: scale(0.8);
+            animation: popIn 0.5s ease-out forwards;
+        }
+        @keyframes popIn {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .message {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+            font-weight: bold;
+            color: #222;
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 1s ease-in 1s forwards;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="scratch-card-container">
+        <div class="message">Contact us at: 9090909090</div>
+        <canvas id="scratchCanvas" width="300" height="200"></canvas>
+    </div>
+    <script>
+        const canvas = document.getElementById("scratchCanvas");
+        const ctx = canvas.getContext("2d");
+        
+        const img = new Image();
+        img.src = "../Assets/squidCard.jpg"; // Replace with actual image
+        img.onload = function () {
+            ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+            ctx.globalCompositeOperation = "destination-out";
+        };
+        
+        let isDrawing = false;
+        let cleared = false;
+        
+        function checkScratchCompletion() {
+            const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height).data;
+            let clearedPixels = 0;
+            for (let i = 0; i < imageData.length; i += 4) {
+                if (imageData[i + 3] === 0) {
+                    clearedPixels++;
+                }
+            }
+            if (clearedPixels / (canvas.width * canvas.height) > 0.3) { // 30% scratched
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                cleared = true;
+            }
+        }
+        
+        canvas.addEventListener("mousedown", () => isDrawing = true);
+        canvas.addEventListener("mouseup", () => {
+            isDrawing = false;
+            if (!cleared) checkScratchCompletion();
+        });
+        canvas.addEventListener("mousemove", (e) => {
+            if (!isDrawing || cleared) return;
+            const rect = canvas.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            ctx.beginPath();
+            ctx.arc(x, y, 20, 0, Math.PI * 2);
+            ctx.fill();
+            checkScratchCompletion();
+        });
+    </script>
+</body>
+</html>
