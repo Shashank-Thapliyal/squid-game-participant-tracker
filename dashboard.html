@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Squid Game Tracker - Dashboard</title>
     <link rel="stylesheet" href="assets/CSS/dashboard.css">
+    <link rel="stylesheet" href="assets/CSS/leaderboard.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
@@ -21,6 +22,11 @@
                 <li>
                     <i class="fas fa-users"></i>
                     <span class="text">Participants</span>
+                </li>
+
+                <li onclick="openLeaderboardModal()">
+                    <i class="fas fa-trophy"></i>
+                    <span class="text">Leaderboard</span>
                 </li>
                 <li>
                     <i class="fas fa-chart-bar"></i>
@@ -91,6 +97,36 @@
     </div>
 </div>
 
+<!-- leaderboard modal  -->
+<div id="leaderboardModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeLeaderboardModal()">&times;</span>
+        <main>
+            <div id="header">
+                <h1>Ranking</h1>
+            </div>
+            <div id="leaderboard">
+                <div class="ribbon"></div>
+                <table></table>
+                <div id="buttons">
+                    <button class="exit" style="color: #e93e7d; background: none; border: none" onclick="closeLeaderboardModal()">Exit</button>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+
     <script src="JS/dashboard.js"></script>
+
+    <script>
+        function openLeaderboardModal() {
+            document.getElementById('leaderboardModal').style.display = 'block';
+        }
+
+        function closeLeaderboardModal() {
+            document.getElementById('leaderboardModal').style.display = 'none';
+        }
+    </script>
 </body>
 </html>

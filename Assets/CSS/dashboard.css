@@ -365,4 +365,57 @@ h1 {
 
 
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
 
+tr {
+    text-align: center;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .input-group {
+        flex-direction: column;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .participant {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .participant span {
+        text-align: center;
+        min-width: auto;
+    }
+
+    .participant .eliminate {
+        margin-top: 5px;
+        width: 100%;
+    }
+}

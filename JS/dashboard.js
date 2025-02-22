@@ -94,8 +94,9 @@ function renderParticipants(participantsList) {
         participantsContainer.innerHTML += card;
     });
 }
+
 async function startNextRound() {
-    if (currentRound >= maxRounds) return; // Stop if max rounds reached
+    if (currentRound >= maxRounds) return;
 
     currentRound++;
 
@@ -107,7 +108,7 @@ async function startNextRound() {
             eliminationCount = participants.length - 1;
         }
     } else {
-        eliminationCount = participants.length - 1; // Final round logic
+        eliminationCount = participants.length - 1;
     }
 
     let newlyEliminated = [];
@@ -124,7 +125,8 @@ async function startNextRound() {
         participants[0].rounds_survived = maxRounds;
         renderParticipants(participants);
         await saveToDummyData(participants.concat(eliminatedParticipants));
-        updateChart();  // <-- 🆕 Update chart after changes
+        updateChart();
+        updateLeaderboard();  // <-- 🆕 Update leaderboard dynamically
         setTimeout(() => showWinner(participants[0]), 300);
         return;
     }
@@ -135,15 +137,10 @@ async function startNextRound() {
     renderParticipants(participants);
     await saveToDummyData(participants.concat(eliminatedParticipants));
 
-    updateChart();  // <-- 🆕 Update chart after changes
+    updateChart();
+    updateLeaderboard();  // <-- 🆕 Update leaderboard dynamically
 
-    if (currentRound === 1) {
-        startRoundBtn.innerText = "Next Round";
-    } else if (currentRound < maxRounds) {
-        startRoundBtn.innerText = "Next Round";
-    } else {
-        startRoundBtn.innerText = "Final Round";
-    }
+    startRoundBtn.innerText = currentRound < maxRounds ? "Next Round" : "Final Round";
 }
 
 // Show Winner Modal
@@ -195,7 +192,7 @@ function updateChart() {
     }
 
     document.getElementById('remainingCount').innerText = `Participants Remaining : ${456 - eliminatedParticipants.length}`
-    
+
     window.myChart = new Chart(ctx, {
         type: "doughnut",
         data: chartData,
@@ -225,3 +222,31 @@ window.onclick = function(event) {
         closeStatsModal();
     }
 };
+
+function updateLeaderboard() {
+    const leaderboardTable = document.querySelector("#leaderboard table");
+
+    // Combine participants and eliminatedParticipants for sorting
+    let allParticipants = [...participants, ...eliminatedParticipants];
+
+    // Sort based on rounds survived (descending)
+    allParticipants.sort((a, b) => b.rounds_survived - a.rounds_survived);
+
+    // Take the top 10 participants
+    const topParticipants = allParticipants.slice(0, 10);
+
+    // Clear the table
+    leaderboardTable.innerHTML = "";
+
+    // Populate leaderboard table
+    topParticipants.forEach((participant, index) => {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+            <td class="number" >${index + 1}</td>
+            <td class="name">${index==1 && participant.rounds_survived == 6? `🏆${participant.name}`: participant.name }</td>
+            <td class="points">${participant.rounds_survived}</td>
+        `;
+        leaderboardTable.appendChild(row);
+    });
+}
+
