@@ -1,0 +1,217 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    /* General Styles */
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #090a1a, #17132e, #1c0c2e);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh; /* Ensures the background covers the whole viewport */
+    background-attachment: fixed; /* Keeps the gradient fixed while scrolling */
+}
+
+/* Sidebar Styles */
+/* Sidebar Styles */
+.sidebar {
+    width: 80px; /* Default width showing only icons */
+    height: 100vh;
+    background-color: #222;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%); /* Centers it vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center items vertically */
+    padding-top: 20px;
+    transition: width 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.sidebar:hover {
+    width: 200px; /* Expands on hover */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.sidebar li {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 15px;
+    cursor: pointer;
+    color: white;
+    transition: background 0.3s;
+}
+
+.sidebar li:hover {
+    background: #e93e7d;
+}
+
+.sidebar i {
+    font-size: 1.5rem;
+    min-width: 50px;
+    text-align: center;
+}
+
+.sidebar .text {
+    display: none;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+.sidebar:hover .text {
+    display: block;
+}
+
+/* Adjust main content when sidebar is present */
+.dashboard-content {
+    margin-left: 100px; /* Adjust based on sidebar width */
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.sidebar:hover ~ .dashboard-content {
+    margin-left: 220px;
+}
+
+
+.relative {
+    position: relative;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .h-screen {
+    height: 100vh;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .bg-gradient {
+    background: linear-gradient(to bottom, #090a1a, #17132e, #1c0c2e);
+  }
+
+  
+/* Header */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #e93e7d;
+    text-transform: uppercase;
+}
+
+/* Controls (Search & Filter) */
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+#search, #filter {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #e93e7d;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+    outline: none;
+}
+
+#search::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#filter {
+    cursor: pointer;
+}
+
+/* Participant Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Participant Card */
+.participant-card {
+    background-color: #222;
+    border: 2px solid #e93e7d;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.participant-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #e93e7d;
+}
+
+/* Eliminated Participants */
+.participant-card.eliminated {
+    background-color: #444;
+    border: 2px solid #880000;
+    opacity: 0.5;
+}
+
+.participant-card h3 {
+    font-size: 1.5rem;
+    color: #e93e7d;
+    margin-bottom: 10px;
+}
+
+.participant-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .controls {
+        flex-direction: column;
+    }
+
+    #search, #filter {
+        width: 90%;
+    }
+}
+
+
+.dashboard-content {
+    margin-left: 100px; /* Adjust based on sidebar width */
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.expander .dashboard-content {
+    margin-left: 260px; /* Expands when sidebar opens */
+}

@@ -1,0 +1,4562 @@
+[
+    {
+        "participant_number": "001",
+        "name": "Ji-hoon Takahashi",
+        "age": 43,
+        "occupation": "Police Officer",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon left Tokyo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "002",
+        "name": "Elena Kim",
+        "age": 54,
+        "occupation": "Social Media Influencer",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena is a Social Media Influencer from New York who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "003",
+        "name": "Ji-hoon Singh",
+        "age": 38,
+        "occupation": "Athlete",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Athlete, Ji-hoon is now struggling to pay rent in Moscow."
+    },
+    {
+        "participant_number": "004",
+        "name": "Ji-hoon Park",
+        "age": 35,
+        "occupation": "Firefighter",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Firefighter, Ji-hoon is now struggling to pay rent in Bangkok."
+    },
+    {
+        "participant_number": "005",
+        "name": "Min-seo Lee",
+        "age": 59,
+        "occupation": "Car Mechanic",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo left Moscow to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "006",
+        "name": "Carlos Garcia",
+        "age": 51,
+        "occupation": "Scientist",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos Garcia used to be a Scientist in Tokyo but lost everything due to debt."
+    },
+    {
+        "participant_number": "007",
+        "name": "Fatima Lee",
+        "age": 48,
+        "occupation": "Musician",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Bangkok, Fatima had no choice but to join the game."
+    },
+    {
+        "participant_number": "008",
+        "name": "Sophia Garcia",
+        "age": 51,
+        "occupation": "Social Media Influencer",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Social Media Influencer, Sophia is now struggling to pay rent in Moscow."
+    },
+    {
+        "participant_number": "009",
+        "name": "Fatima Brown",
+        "age": 22,
+        "occupation": "Stockbroker",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima is a Stockbroker from Bangkok who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "010",
+        "name": "Ji-hoon Kim",
+        "age": 18,
+        "occupation": "Fisherman",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Fisherman, Ji-hoon is now struggling to pay rent in Berlin."
+    },
+    {
+        "participant_number": "011",
+        "name": "Fatima Choi",
+        "age": 41,
+        "occupation": "Stockbroker",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima left Cairo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "012",
+        "name": "Elena Brown",
+        "age": 53,
+        "occupation": "Truck Driver",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena left Mumbai to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "013",
+        "name": "Liam Garcia",
+        "age": 58,
+        "occupation": "Taxi Driver",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam is a Taxi Driver from Rio de Janeiro who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "014",
+        "name": "Daniel Kim",
+        "age": 43,
+        "occupation": "Scientist",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel Kim used to be a Scientist in Seoul but lost everything due to debt."
+    },
+    {
+        "participant_number": "015",
+        "name": "Ji-hoon Takahashi",
+        "age": 36,
+        "occupation": "Truck Driver",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon is a Truck Driver from Berlin who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "016",
+        "name": "Ji-hoon Park",
+        "age": 48,
+        "occupation": "Farmer",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Farmer, Ji-hoon is now struggling to pay rent in Bangkok."
+    },
+    {
+        "participant_number": "017",
+        "name": "Elena Brown",
+        "age": 41,
+        "occupation": "Soldier",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Cairo, Elena had no choice but to join the game."
+    },
+    {
+        "participant_number": "018",
+        "name": "Min-seo Brown",
+        "age": 55,
+        "occupation": "Journalist",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Mumbai, Min-seo had no choice but to join the game."
+    },
+    {
+        "participant_number": "019",
+        "name": "Sophia Lee",
+        "age": 59,
+        "occupation": "Social Media Influencer",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Mexico City, Sophia had no choice but to join the game."
+    },
+    {
+        "participant_number": "020",
+        "name": "Min-seo Park",
+        "age": 46,
+        "occupation": "Athlete",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo is a Athlete from Tokyo who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "021",
+        "name": "Sophia Kim",
+        "age": 25,
+        "occupation": "Scientist",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia left Seoul to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "022",
+        "name": "Aisha Singh",
+        "age": 25,
+        "occupation": "Waiter",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Cairo, Aisha had no choice but to join the game."
+    },
+    {
+        "participant_number": "023",
+        "name": "Elena Brown",
+        "age": 44,
+        "occupation": "Firefighter",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena left Mumbai to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "024",
+        "name": "Elena Nguyen",
+        "age": 20,
+        "occupation": "Police Officer",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena Nguyen used to be a Police Officer in Rio de Janeiro but lost everything due to debt."
+    },
+    {
+        "participant_number": "025",
+        "name": "Sophia Kim",
+        "age": 51,
+        "occupation": "Car Mechanic",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia is a Car Mechanic from Bangkok who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "026",
+        "name": "Sophia Takahashi",
+        "age": 50,
+        "occupation": "Musician",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia left Mumbai to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "027",
+        "name": "Carlos Takahashi",
+        "age": 44,
+        "occupation": "Chef",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos left Cairo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "028",
+        "name": "Carlos Nguyen",
+        "age": 55,
+        "occupation": "Factory Worker",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Factory Worker, Carlos is now struggling to pay rent in Berlin."
+    },
+    {
+        "participant_number": "029",
+        "name": "Daniel Lee",
+        "age": 28,
+        "occupation": "Car Mechanic",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel left Moscow to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "030",
+        "name": "Min-seo Garcia",
+        "age": 53,
+        "occupation": "Soldier",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo is a Soldier from New York who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "031",
+        "name": "Fatima Brown",
+        "age": 33,
+        "occupation": "Photographer",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima is a Photographer from Bangkok who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "032",
+        "name": "Kenji Park",
+        "age": 18,
+        "occupation": "Chef",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji left Seoul to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "033",
+        "name": "Fatima Singh",
+        "age": 47,
+        "occupation": "Teacher",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima Singh used to be a Teacher in Rio de Janeiro but lost everything due to debt."
+    },
+    {
+        "participant_number": "034",
+        "name": "Liam Kim",
+        "age": 21,
+        "occupation": "Scientist",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Seoul, Liam had no choice but to join the game."
+    },
+    {
+        "participant_number": "035",
+        "name": "Liam Lee",
+        "age": 19,
+        "occupation": "Soldier",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Soldier, Liam is now struggling to pay rent in Mumbai."
+    },
+    {
+        "participant_number": "036",
+        "name": "Daniel Lee",
+        "age": 27,
+        "occupation": "Soldier",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel is a Soldier from Rio de Janeiro who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "037",
+        "name": "Elena Choi",
+        "age": 22,
+        "occupation": "Soldier",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Bangkok, Elena had no choice but to join the game."
+    },
+    {
+        "participant_number": "038",
+        "name": "Kenji Nguyen",
+        "age": 28,
+        "occupation": "Waiter",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji left New York to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "039",
+        "name": "Liam Nguyen",
+        "age": 20,
+        "occupation": "Taxi Driver",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Rio de Janeiro, Liam had no choice but to join the game."
+    },
+    {
+        "participant_number": "040",
+        "name": "Aisha Brown",
+        "age": 50,
+        "occupation": "Fashion Designer",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha left Seoul to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "041",
+        "name": "Fatima Kim",
+        "age": 46,
+        "occupation": "Electrician",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Electrician, Fatima is now struggling to pay rent in Moscow."
+    },
+    {
+        "participant_number": "042",
+        "name": "Carlos Hernandez",
+        "age": 31,
+        "occupation": "Construction Worker",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos is a Construction Worker from Seoul who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "043",
+        "name": "Sophia Singh",
+        "age": 41,
+        "occupation": "Chef",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia left Moscow to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "044",
+        "name": "Elena Choi",
+        "age": 35,
+        "occupation": "Teacher",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Cairo, Elena had no choice but to join the game."
+    },
+    {
+        "participant_number": "045",
+        "name": "Sophia Nguyen",
+        "age": 30,
+        "occupation": "Scientist",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Berlin, Sophia had no choice but to join the game."
+    },
+    {
+        "participant_number": "046",
+        "name": "Min-seo Nguyen",
+        "age": 18,
+        "occupation": "Social Media Influencer",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Berlin, Min-seo had no choice but to join the game."
+    },
+    {
+        "participant_number": "047",
+        "name": "Sophia Lee",
+        "age": 56,
+        "occupation": "Taxi Driver",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia Lee used to be a Taxi Driver in Rio de Janeiro but lost everything due to debt."
+    },
+    {
+        "participant_number": "048",
+        "name": "Fatima Garcia",
+        "age": 32,
+        "occupation": "Journalist",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima left New York to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "049",
+        "name": "Elena Hernandez",
+        "age": 39,
+        "occupation": "Musician",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in New York, Elena had no choice but to join the game."
+    },
+    {
+        "participant_number": "050",
+        "name": "Daniel Park",
+        "age": 32,
+        "occupation": "Social Media Influencer",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Social Media Influencer, Daniel is now struggling to pay rent in Cairo."
+    },
+    {
+        "participant_number": "051",
+        "name": "Aisha Hernandez",
+        "age": 60,
+        "occupation": "Police Officer",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Berlin, Aisha had no choice but to join the game."
+    },
+    {
+        "participant_number": "052",
+        "name": "Carlos Singh",
+        "age": 53,
+        "occupation": "Teacher",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in New York, Carlos had no choice but to join the game."
+    },
+    {
+        "participant_number": "053",
+        "name": "Fatima Kim",
+        "age": 60,
+        "occupation": "Firefighter",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Firefighter, Fatima is now struggling to pay rent in Tokyo."
+    },
+    {
+        "participant_number": "054",
+        "name": "Kenji Park",
+        "age": 18,
+        "occupation": "Athlete",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji left Seoul to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "055",
+        "name": "Sophia Kim",
+        "age": 39,
+        "occupation": "Chef",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia left Tokyo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "056",
+        "name": "Ji-hoon Lee",
+        "age": 20,
+        "occupation": "Construction Worker",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon left Berlin to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "057",
+        "name": "Sophia Brown",
+        "age": 29,
+        "occupation": "Investment Banker",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia is a Investment Banker from Moscow who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "058",
+        "name": "Min-seo Choi",
+        "age": 27,
+        "occupation": "Fisherman",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Fisherman, Min-seo is now struggling to pay rent in Mexico City."
+    },
+    {
+        "participant_number": "059",
+        "name": "Aisha Nguyen",
+        "age": 24,
+        "occupation": "Construction Worker",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha left Berlin to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "060",
+        "name": "Aisha Brown",
+        "age": 21,
+        "occupation": "Athlete",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha is a Athlete from Berlin who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "061",
+        "name": "Fatima Brown",
+        "age": 40,
+        "occupation": "Firefighter",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima left Tokyo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "062",
+        "name": "Liam Takahashi",
+        "age": 51,
+        "occupation": "Firefighter",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam is a Firefighter from Rio de Janeiro who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "063",
+        "name": "Fatima Takahashi",
+        "age": 25,
+        "occupation": "Construction Worker",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Construction Worker, Fatima is now struggling to pay rent in Seoul."
+    },
+    {
+        "participant_number": "064",
+        "name": "Min-seo Choi",
+        "age": 28,
+        "occupation": "Journalist",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Mexico City, Min-seo had no choice but to join the game."
+    },
+    {
+        "participant_number": "065",
+        "name": "Kenji Choi",
+        "age": 35,
+        "occupation": "Fashion Designer",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Fashion Designer, Kenji is now struggling to pay rent in Rio de Janeiro."
+    },
+    {
+        "participant_number": "066",
+        "name": "Ji-hoon Singh",
+        "age": 48,
+        "occupation": "Farmer",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon left Moscow to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "067",
+        "name": "Ji-hoon Brown",
+        "age": 35,
+        "occupation": "Teacher",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Teacher, Ji-hoon is now struggling to pay rent in Cairo."
+    },
+    {
+        "participant_number": "068",
+        "name": "Sophia Park",
+        "age": 40,
+        "occupation": "Taxi Driver",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia Park used to be a Taxi Driver in Moscow but lost everything due to debt."
+    },
+    {
+        "participant_number": "069",
+        "name": "Kenji Takahashi",
+        "age": 55,
+        "occupation": "Chef",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Chef, Kenji is now struggling to pay rent in Moscow."
+    },
+    {
+        "participant_number": "070",
+        "name": "Liam Hernandez",
+        "age": 23,
+        "occupation": "Car Mechanic",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Car Mechanic, Liam is now struggling to pay rent in Seoul."
+    },
+    {
+        "participant_number": "071",
+        "name": "Aisha Singh",
+        "age": 44,
+        "occupation": "Construction Worker",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha left Moscow to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "072",
+        "name": "Sophia Kim",
+        "age": 30,
+        "occupation": "Waiter",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Waiter, Sophia is now struggling to pay rent in Berlin."
+    },
+    {
+        "participant_number": "073",
+        "name": "Sophia Choi",
+        "age": 40,
+        "occupation": "Fashion Designer",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Fashion Designer, Sophia is now struggling to pay rent in Berlin."
+    },
+    {
+        "participant_number": "074",
+        "name": "Min-seo Takahashi",
+        "age": 47,
+        "occupation": "Scientist",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo left New York to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "075",
+        "name": "Elena Takahashi",
+        "age": 54,
+        "occupation": "Fashion Designer",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Fashion Designer, Elena is now struggling to pay rent in New York."
+    },
+    {
+        "participant_number": "076",
+        "name": "Aisha Hernandez",
+        "age": 42,
+        "occupation": "Waiter",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Waiter, Aisha is now struggling to pay rent in Moscow."
+    },
+    {
+        "participant_number": "077",
+        "name": "Liam Park",
+        "age": 20,
+        "occupation": "Waiter",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam Park used to be a Waiter in Mexico City but lost everything due to debt."
+    },
+    {
+        "participant_number": "078",
+        "name": "Min-seo Kim",
+        "age": 58,
+        "occupation": "Athlete",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo Kim used to be a Athlete in Bangkok but lost everything due to debt."
+    },
+    {
+        "participant_number": "079",
+        "name": "Fatima Brown",
+        "age": 28,
+        "occupation": "Firefighter",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima is a Firefighter from Rio de Janeiro who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "080",
+        "name": "Carlos Kim",
+        "age": 22,
+        "occupation": "Stockbroker",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Rio de Janeiro, Carlos had no choice but to join the game."
+    },
+    {
+        "participant_number": "081",
+        "name": "Daniel Hernandez",
+        "age": 58,
+        "occupation": "Social Media Influencer",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Seoul, Daniel had no choice but to join the game."
+    },
+    {
+        "participant_number": "082",
+        "name": "Carlos Garcia",
+        "age": 29,
+        "occupation": "Taxi Driver",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Bangkok, Carlos had no choice but to join the game."
+    },
+    {
+        "participant_number": "083",
+        "name": "Elena Choi",
+        "age": 59,
+        "occupation": "Truck Driver",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena Choi used to be a Truck Driver in Tokyo but lost everything due to debt."
+    },
+    {
+        "participant_number": "084",
+        "name": "Ji-hoon Lee",
+        "age": 26,
+        "occupation": "Stockbroker",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Tokyo, Ji-hoon had no choice but to join the game."
+    },
+    {
+        "participant_number": "085",
+        "name": "Kenji Singh",
+        "age": 24,
+        "occupation": "Construction Worker",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Construction Worker, Kenji is now struggling to pay rent in Moscow."
+    },
+    {
+        "participant_number": "086",
+        "name": "Fatima Park",
+        "age": 45,
+        "occupation": "Social Media Influencer",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima Park used to be a Social Media Influencer in Cairo but lost everything due to debt."
+    },
+    {
+        "participant_number": "087",
+        "name": "Fatima Lee",
+        "age": 44,
+        "occupation": "Journalist",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Rio de Janeiro, Fatima had no choice but to join the game."
+    },
+    {
+        "participant_number": "088",
+        "name": "Sophia Kim",
+        "age": 40,
+        "occupation": "Photographer",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia is a Photographer from Berlin who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "089",
+        "name": "Min-seo Hernandez",
+        "age": 60,
+        "occupation": "Police Officer",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Police Officer, Min-seo is now struggling to pay rent in Bangkok."
+    },
+    {
+        "participant_number": "090",
+        "name": "Ji-hoon Singh",
+        "age": 43,
+        "occupation": "Social Media Influencer",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon Singh used to be a Social Media Influencer in Berlin but lost everything due to debt."
+    },
+    {
+        "participant_number": "091",
+        "name": "Liam Choi",
+        "age": 39,
+        "occupation": "Police Officer",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam left Mexico City to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "092",
+        "name": "Elena Singh",
+        "age": 46,
+        "occupation": "Factory Worker",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Factory Worker, Elena is now struggling to pay rent in Moscow."
+    },
+    {
+        "participant_number": "093",
+        "name": "Kenji Hernandez",
+        "age": 18,
+        "occupation": "Truck Driver",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji Hernandez used to be a Truck Driver in Mumbai but lost everything due to debt."
+    },
+    {
+        "participant_number": "094",
+        "name": "Aisha Singh",
+        "age": 23,
+        "occupation": "Teacher",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Teacher, Aisha is now struggling to pay rent in Cairo."
+    },
+    {
+        "participant_number": "095",
+        "name": "Kenji Park",
+        "age": 43,
+        "occupation": "Fisherman",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Fisherman, Kenji is now struggling to pay rent in Mexico City."
+    },
+    {
+        "participant_number": "096",
+        "name": "Min-seo Nguyen",
+        "age": 58,
+        "occupation": "Musician",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo Nguyen used to be a Musician in Seoul but lost everything due to debt."
+    },
+    {
+        "participant_number": "097",
+        "name": "Liam Garcia",
+        "age": 42,
+        "occupation": "Stockbroker",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Mexico City, Liam had no choice but to join the game."
+    },
+    {
+        "participant_number": "098",
+        "name": "Min-seo Takahashi",
+        "age": 22,
+        "occupation": "Electrician",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo Takahashi used to be a Electrician in Seoul but lost everything due to debt."
+    },
+    {
+        "participant_number": "099",
+        "name": "Ji-hoon Garcia",
+        "age": 45,
+        "occupation": "Car Mechanic",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Car Mechanic, Ji-hoon is now struggling to pay rent in Mexico City."
+    },
+    {
+        "participant_number": "100",
+        "name": "Elena Park",
+        "age": 35,
+        "occupation": "Factory Worker",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena Park used to be a Factory Worker in Moscow but lost everything due to debt."
+    },
+    {
+        "participant_number": "101",
+        "name": "Carlos Brown",
+        "age": 41,
+        "occupation": "Athlete",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Bangkok, Carlos had no choice but to join the game."
+    },
+    {
+        "participant_number": "102",
+        "name": "Elena Choi",
+        "age": 32,
+        "occupation": "Investment Banker",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Cairo, Elena had no choice but to join the game."
+    },
+    {
+        "participant_number": "103",
+        "name": "Daniel Kim",
+        "age": 22,
+        "occupation": "Scientist",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Scientist, Daniel is now struggling to pay rent in Cairo."
+    },
+    {
+        "participant_number": "104",
+        "name": "Ji-hoon Lee",
+        "age": 38,
+        "occupation": "Car Mechanic",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Car Mechanic, Ji-hoon is now struggling to pay rent in Mexico City."
+    },
+    {
+        "participant_number": "105",
+        "name": "Min-seo Lee",
+        "age": 29,
+        "occupation": "Fashion Designer",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo left Bangkok to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "106",
+        "name": "Sophia Singh",
+        "age": 59,
+        "occupation": "Farmer",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Farmer, Sophia is now struggling to pay rent in Bangkok."
+    },
+    {
+        "participant_number": "107",
+        "name": "Ji-hoon Hernandez",
+        "age": 56,
+        "occupation": "Photographer",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Tokyo, Ji-hoon had no choice but to join the game."
+    },
+    {
+        "participant_number": "108",
+        "name": "Ji-hoon Takahashi",
+        "age": 57,
+        "occupation": "Investment Banker",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon Takahashi used to be a Investment Banker in Rio de Janeiro but lost everything due to debt."
+    },
+    {
+        "participant_number": "109",
+        "name": "Sophia Lee",
+        "age": 19,
+        "occupation": "Teacher",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia is a Teacher from New York who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "110",
+        "name": "Elena Choi",
+        "age": 44,
+        "occupation": "Police Officer",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena left Seoul to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "111",
+        "name": "Liam Nguyen",
+        "age": 35,
+        "occupation": "Fisherman",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam left Mumbai to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "112",
+        "name": "Aisha Brown",
+        "age": 46,
+        "occupation": "Scientist",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Scientist, Aisha is now struggling to pay rent in Seoul."
+    },
+    {
+        "participant_number": "113",
+        "name": "Kenji Lee",
+        "age": 33,
+        "occupation": "Firefighter",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Firefighter, Kenji is now struggling to pay rent in Berlin."
+    },
+    {
+        "participant_number": "114",
+        "name": "Ji-hoon Garcia",
+        "age": 57,
+        "occupation": "Musician",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon Garcia used to be a Musician in Berlin but lost everything due to debt."
+    },
+    {
+        "participant_number": "115",
+        "name": "Elena Brown",
+        "age": 56,
+        "occupation": "Teacher",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Teacher, Elena is now struggling to pay rent in Mexico City."
+    },
+    {
+        "participant_number": "116",
+        "name": "Ji-hoon Choi",
+        "age": 40,
+        "occupation": "Truck Driver",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Truck Driver, Ji-hoon is now struggling to pay rent in Moscow."
+    },
+    {
+        "participant_number": "117",
+        "name": "Daniel Park",
+        "age": 38,
+        "occupation": "Teacher",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel is a Teacher from Mexico City who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "118",
+        "name": "Daniel Lee",
+        "age": 45,
+        "occupation": "Truck Driver",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Berlin, Daniel had no choice but to join the game."
+    },
+    {
+        "participant_number": "119",
+        "name": "Carlos Garcia",
+        "age": 28,
+        "occupation": "Construction Worker",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Construction Worker, Carlos is now struggling to pay rent in Seoul."
+    },
+    {
+        "participant_number": "120",
+        "name": "Liam Takahashi",
+        "age": 46,
+        "occupation": "Factory Worker",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam Takahashi used to be a Factory Worker in Rio de Janeiro but lost everything due to debt."
+    },
+    {
+        "participant_number": "121",
+        "name": "Elena Lee",
+        "age": 34,
+        "occupation": "Musician",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Musician, Elena is now struggling to pay rent in Tokyo."
+    },
+    {
+        "participant_number": "122",
+        "name": "Elena Kim",
+        "age": 49,
+        "occupation": "Firefighter",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena Kim used to be a Firefighter in Mumbai but lost everything due to debt."
+    },
+    {
+        "participant_number": "123",
+        "name": "Ji-hoon Lee",
+        "age": 31,
+        "occupation": "Investment Banker",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon left Mumbai to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "124",
+        "name": "Aisha Park",
+        "age": 37,
+        "occupation": "Fisherman",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha left New York to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "125",
+        "name": "Fatima Brown",
+        "age": 49,
+        "occupation": "Social Media Influencer",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Moscow, Fatima had no choice but to join the game."
+    },
+    {
+        "participant_number": "126",
+        "name": "Ji-hoon Park",
+        "age": 19,
+        "occupation": "Farmer",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon is a Farmer from Bangkok who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "127",
+        "name": "Elena Park",
+        "age": 23,
+        "occupation": "Truck Driver",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena Park used to be a Truck Driver in New York but lost everything due to debt."
+    },
+    {
+        "participant_number": "128",
+        "name": "Sophia Garcia",
+        "age": 42,
+        "occupation": "Teacher",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia is a Teacher from Berlin who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "129",
+        "name": "Fatima Garcia",
+        "age": 39,
+        "occupation": "Soldier",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Seoul, Fatima had no choice but to join the game."
+    },
+    {
+        "participant_number": "130",
+        "name": "Fatima Choi",
+        "age": 59,
+        "occupation": "Fisherman",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima left Mumbai to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "131",
+        "name": "Kenji Singh",
+        "age": 46,
+        "occupation": "Chef",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Mumbai, Kenji had no choice but to join the game."
+    },
+    {
+        "participant_number": "132",
+        "name": "Sophia Singh",
+        "age": 46,
+        "occupation": "Construction Worker",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia is a Construction Worker from Mexico City who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "133",
+        "name": "Sophia Kim",
+        "age": 39,
+        "occupation": "Social Media Influencer",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia Kim used to be a Social Media Influencer in Rio de Janeiro but lost everything due to debt."
+    },
+    {
+        "participant_number": "134",
+        "name": "Aisha Choi",
+        "age": 53,
+        "occupation": "Car Mechanic",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha Choi used to be a Car Mechanic in Bangkok but lost everything due to debt."
+    },
+    {
+        "participant_number": "135",
+        "name": "Fatima Takahashi",
+        "age": 34,
+        "occupation": "Social Media Influencer",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima Takahashi used to be a Social Media Influencer in Mexico City but lost everything due to debt."
+    },
+    {
+        "participant_number": "136",
+        "name": "Min-seo Garcia",
+        "age": 52,
+        "occupation": "Scientist",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Mumbai, Min-seo had no choice but to join the game."
+    },
+    {
+        "participant_number": "137",
+        "name": "Ji-hoon Singh",
+        "age": 58,
+        "occupation": "Taxi Driver",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon Singh used to be a Taxi Driver in Berlin but lost everything due to debt."
+    },
+    {
+        "participant_number": "138",
+        "name": "Ji-hoon Takahashi",
+        "age": 34,
+        "occupation": "Truck Driver",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Bangkok, Ji-hoon had no choice but to join the game."
+    },
+    {
+        "participant_number": "139",
+        "name": "Daniel Brown",
+        "age": 47,
+        "occupation": "Electrician",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Electrician, Daniel is now struggling to pay rent in Bangkok."
+    },
+    {
+        "participant_number": "140",
+        "name": "Min-seo Nguyen",
+        "age": 41,
+        "occupation": "Social Media Influencer",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo left Tokyo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "141",
+        "name": "Elena Nguyen",
+        "age": 48,
+        "occupation": "Firefighter",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Firefighter, Elena is now struggling to pay rent in New York."
+    },
+    {
+        "participant_number": "142",
+        "name": "Fatima Nguyen",
+        "age": 49,
+        "occupation": "Truck Driver",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima left Tokyo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "143",
+        "name": "Kenji Nguyen",
+        "age": 30,
+        "occupation": "Factory Worker",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji Nguyen used to be a Factory Worker in Rio de Janeiro but lost everything due to debt."
+    },
+    {
+        "participant_number": "144",
+        "name": "Aisha Park",
+        "age": 34,
+        "occupation": "Factory Worker",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Factory Worker, Aisha is now struggling to pay rent in New York."
+    },
+    {
+        "participant_number": "145",
+        "name": "Carlos Garcia",
+        "age": 19,
+        "occupation": "Car Mechanic",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos left New York to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "146",
+        "name": "Kenji Park",
+        "age": 45,
+        "occupation": "Fisherman",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Mumbai, Kenji had no choice but to join the game."
+    },
+    {
+        "participant_number": "147",
+        "name": "Elena Kim",
+        "age": 27,
+        "occupation": "Scientist",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena Kim used to be a Scientist in New York but lost everything due to debt."
+    },
+    {
+        "participant_number": "148",
+        "name": "Kenji Nguyen",
+        "age": 49,
+        "occupation": "Stockbroker",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Cairo, Kenji had no choice but to join the game."
+    },
+    {
+        "participant_number": "149",
+        "name": "Liam Nguyen",
+        "age": 24,
+        "occupation": "Scientist",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Cairo, Liam had no choice but to join the game."
+    },
+    {
+        "participant_number": "150",
+        "name": "Daniel Choi",
+        "age": 46,
+        "occupation": "Athlete",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel is a Athlete from Mexico City who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "151",
+        "name": "Liam Hernandez",
+        "age": 49,
+        "occupation": "Photographer",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam left New York to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "152",
+        "name": "Aisha Hernandez",
+        "age": 30,
+        "occupation": "Fashion Designer",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in New York, Aisha had no choice but to join the game."
+    },
+    {
+        "participant_number": "153",
+        "name": "Sophia Nguyen",
+        "age": 56,
+        "occupation": "Stockbroker",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia left Moscow to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "154",
+        "name": "Carlos Brown",
+        "age": 42,
+        "occupation": "Chef",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Seoul, Carlos had no choice but to join the game."
+    },
+    {
+        "participant_number": "155",
+        "name": "Fatima Nguyen",
+        "age": 19,
+        "occupation": "Journalist",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima Nguyen used to be a Journalist in Berlin but lost everything due to debt."
+    },
+    {
+        "participant_number": "156",
+        "name": "Carlos Park",
+        "age": 57,
+        "occupation": "Firefighter",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos is a Firefighter from Berlin who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "157",
+        "name": "Sophia Garcia",
+        "age": 44,
+        "occupation": "Investment Banker",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia is a Investment Banker from Cairo who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "158",
+        "name": "Elena Hernandez",
+        "age": 45,
+        "occupation": "Factory Worker",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Factory Worker, Elena is now struggling to pay rent in Moscow."
+    },
+    {
+        "participant_number": "159",
+        "name": "Kenji Brown",
+        "age": 56,
+        "occupation": "Social Media Influencer",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji left Cairo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "160",
+        "name": "Ji-hoon Lee",
+        "age": 30,
+        "occupation": "Social Media Influencer",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Social Media Influencer, Ji-hoon is now struggling to pay rent in Cairo."
+    },
+    {
+        "participant_number": "161",
+        "name": "Carlos Garcia",
+        "age": 59,
+        "occupation": "Truck Driver",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Rio de Janeiro, Carlos had no choice but to join the game."
+    },
+    {
+        "participant_number": "162",
+        "name": "Elena Singh",
+        "age": 29,
+        "occupation": "Scientist",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena is a Scientist from New York who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "163",
+        "name": "Sophia Park",
+        "age": 22,
+        "occupation": "Firefighter",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia Park used to be a Firefighter in Seoul but lost everything due to debt."
+    },
+    {
+        "participant_number": "164",
+        "name": "Fatima Singh",
+        "age": 33,
+        "occupation": "Construction Worker",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima left Seoul to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "165",
+        "name": "Ji-hoon Takahashi",
+        "age": 52,
+        "occupation": "Taxi Driver",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon is a Taxi Driver from Mumbai who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "166",
+        "name": "Fatima Park",
+        "age": 27,
+        "occupation": "Soldier",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima left New York to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "167",
+        "name": "Kenji Lee",
+        "age": 24,
+        "occupation": "Firefighter",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Cairo, Kenji had no choice but to join the game."
+    },
+    {
+        "participant_number": "168",
+        "name": "Fatima Kim",
+        "age": 33,
+        "occupation": "Fisherman",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima is a Fisherman from Seoul who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "169",
+        "name": "Carlos Hernandez",
+        "age": 43,
+        "occupation": "Electrician",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Electrician, Carlos is now struggling to pay rent in Mumbai."
+    },
+    {
+        "participant_number": "170",
+        "name": "Carlos Choi",
+        "age": 36,
+        "occupation": "Fashion Designer",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos is a Fashion Designer from Mexico City who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "171",
+        "name": "Aisha Singh",
+        "age": 41,
+        "occupation": "Waiter",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Seoul, Aisha had no choice but to join the game."
+    },
+    {
+        "participant_number": "172",
+        "name": "Ji-hoon Park",
+        "age": 19,
+        "occupation": "Factory Worker",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon left Rio de Janeiro to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "173",
+        "name": "Liam Park",
+        "age": 35,
+        "occupation": "Photographer",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam left Berlin to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "174",
+        "name": "Liam Kim",
+        "age": 44,
+        "occupation": "Factory Worker",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Factory Worker, Liam is now struggling to pay rent in Seoul."
+    },
+    {
+        "participant_number": "175",
+        "name": "Carlos Choi",
+        "age": 22,
+        "occupation": "Truck Driver",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Moscow, Carlos had no choice but to join the game."
+    },
+    {
+        "participant_number": "176",
+        "name": "Daniel Lee",
+        "age": 21,
+        "occupation": "Police Officer",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel left Mumbai to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "177",
+        "name": "Fatima Garcia",
+        "age": 25,
+        "occupation": "Farmer",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Farmer, Fatima is now struggling to pay rent in Moscow."
+    },
+    {
+        "participant_number": "178",
+        "name": "Kenji Kim",
+        "age": 56,
+        "occupation": "Athlete",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in New York, Kenji had no choice but to join the game."
+    },
+    {
+        "participant_number": "179",
+        "name": "Liam Park",
+        "age": 18,
+        "occupation": "Taxi Driver",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Taxi Driver, Liam is now struggling to pay rent in Rio de Janeiro."
+    },
+    {
+        "participant_number": "180",
+        "name": "Daniel Choi",
+        "age": 22,
+        "occupation": "Factory Worker",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel is a Factory Worker from Bangkok who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "181",
+        "name": "Fatima Park",
+        "age": 44,
+        "occupation": "Taxi Driver",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Taxi Driver, Fatima is now struggling to pay rent in Bangkok."
+    },
+    {
+        "participant_number": "182",
+        "name": "Elena Lee",
+        "age": 40,
+        "occupation": "Fisherman",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena Lee used to be a Fisherman in Mumbai but lost everything due to debt."
+    },
+    {
+        "participant_number": "183",
+        "name": "Elena Hernandez",
+        "age": 25,
+        "occupation": "Soldier",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena is a Soldier from New York who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "184",
+        "name": "Kenji Singh",
+        "age": 23,
+        "occupation": "Farmer",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji left Moscow to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "185",
+        "name": "Fatima Hernandez",
+        "age": 30,
+        "occupation": "Police Officer",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima is a Police Officer from Rio de Janeiro who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "186",
+        "name": "Fatima Park",
+        "age": 49,
+        "occupation": "Taxi Driver",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Taxi Driver, Fatima is now struggling to pay rent in Bangkok."
+    },
+    {
+        "participant_number": "187",
+        "name": "Kenji Lee",
+        "age": 36,
+        "occupation": "Musician",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Musician, Kenji is now struggling to pay rent in Berlin."
+    },
+    {
+        "participant_number": "188",
+        "name": "Daniel Lee",
+        "age": 34,
+        "occupation": "Photographer",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel is a Photographer from New York who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "189",
+        "name": "Ji-hoon Takahashi",
+        "age": 18,
+        "occupation": "Taxi Driver",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Taxi Driver, Ji-hoon is now struggling to pay rent in Rio de Janeiro."
+    },
+    {
+        "participant_number": "190",
+        "name": "Min-seo Hernandez",
+        "age": 51,
+        "occupation": "Police Officer",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo is a Police Officer from Seoul who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "191",
+        "name": "Min-seo Garcia",
+        "age": 52,
+        "occupation": "Scientist",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in New York, Min-seo had no choice but to join the game."
+    },
+    {
+        "participant_number": "192",
+        "name": "Kenji Takahashi",
+        "age": 20,
+        "occupation": "Waiter",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji left Berlin to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "193",
+        "name": "Kenji Singh",
+        "age": 25,
+        "occupation": "Farmer",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji is a Farmer from Cairo who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "194",
+        "name": "Aisha Garcia",
+        "age": 25,
+        "occupation": "Construction Worker",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Construction Worker, Aisha is now struggling to pay rent in Tokyo."
+    },
+    {
+        "participant_number": "195",
+        "name": "Fatima Park",
+        "age": 28,
+        "occupation": "Construction Worker",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Construction Worker, Fatima is now struggling to pay rent in Mexico City."
+    },
+    {
+        "participant_number": "196",
+        "name": "Daniel Brown",
+        "age": 36,
+        "occupation": "Construction Worker",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel is a Construction Worker from Mumbai who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "197",
+        "name": "Elena Singh",
+        "age": 30,
+        "occupation": "Photographer",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Photographer, Elena is now struggling to pay rent in Cairo."
+    },
+    {
+        "participant_number": "198",
+        "name": "Fatima Singh",
+        "age": 27,
+        "occupation": "Firefighter",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Firefighter, Fatima is now struggling to pay rent in Bangkok."
+    },
+    {
+        "participant_number": "199",
+        "name": "Elena Garcia",
+        "age": 18,
+        "occupation": "Teacher",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena Garcia used to be a Teacher in Mumbai but lost everything due to debt."
+    },
+    {
+        "participant_number": "200",
+        "name": "Ji-hoon Choi",
+        "age": 60,
+        "occupation": "Social Media Influencer",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Cairo, Ji-hoon had no choice but to join the game."
+    },
+    {
+        "participant_number": "201",
+        "name": "Ji-hoon Kim",
+        "age": 21,
+        "occupation": "Athlete",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Athlete, Ji-hoon is now struggling to pay rent in Mexico City."
+    },
+    {
+        "participant_number": "202",
+        "name": "Daniel Kim",
+        "age": 28,
+        "occupation": "Firefighter",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel Kim used to be a Firefighter in New York but lost everything due to debt."
+    },
+    {
+        "participant_number": "203",
+        "name": "Daniel Kim",
+        "age": 23,
+        "occupation": "Chef",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel Kim used to be a Chef in Rio de Janeiro but lost everything due to debt."
+    },
+    {
+        "participant_number": "204",
+        "name": "Kenji Hernandez",
+        "age": 24,
+        "occupation": "Teacher",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji Hernandez used to be a Teacher in Seoul but lost everything due to debt."
+    },
+    {
+        "participant_number": "205",
+        "name": "Sophia Kim",
+        "age": 55,
+        "occupation": "Scientist",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Scientist, Sophia is now struggling to pay rent in Mexico City."
+    },
+    {
+        "participant_number": "206",
+        "name": "Kenji Kim",
+        "age": 31,
+        "occupation": "Car Mechanic",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Cairo, Kenji had no choice but to join the game."
+    },
+    {
+        "participant_number": "207",
+        "name": "Aisha Kim",
+        "age": 43,
+        "occupation": "Electrician",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha is a Electrician from Rio de Janeiro who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "208",
+        "name": "Liam Kim",
+        "age": 50,
+        "occupation": "Athlete",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam left Cairo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "209",
+        "name": "Carlos Garcia",
+        "age": 23,
+        "occupation": "Construction Worker",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos left Mexico City to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "210",
+        "name": "Sophia Takahashi",
+        "age": 26,
+        "occupation": "Soldier",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Rio de Janeiro, Sophia had no choice but to join the game."
+    },
+    {
+        "participant_number": "211",
+        "name": "Fatima Kim",
+        "age": 56,
+        "occupation": "Journalist",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima is a Journalist from Mumbai who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "212",
+        "name": "Sophia Lee",
+        "age": 32,
+        "occupation": "Teacher",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia is a Teacher from Mumbai who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "213",
+        "name": "Fatima Kim",
+        "age": 35,
+        "occupation": "Social Media Influencer",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Berlin, Fatima had no choice but to join the game."
+    },
+    {
+        "participant_number": "214",
+        "name": "Liam Singh",
+        "age": 41,
+        "occupation": "Teacher",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Teacher, Liam is now struggling to pay rent in Rio de Janeiro."
+    },
+    {
+        "participant_number": "215",
+        "name": "Daniel Hernandez",
+        "age": 33,
+        "occupation": "Athlete",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Mumbai, Daniel had no choice but to join the game."
+    },
+    {
+        "participant_number": "216",
+        "name": "Elena Singh",
+        "age": 24,
+        "occupation": "Fisherman",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Tokyo, Elena had no choice but to join the game."
+    },
+    {
+        "participant_number": "217",
+        "name": "Ji-hoon Singh",
+        "age": 41,
+        "occupation": "Investment Banker",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Tokyo, Ji-hoon had no choice but to join the game."
+    },
+    {
+        "participant_number": "218",
+        "name": "Min-seo Lee",
+        "age": 19,
+        "occupation": "Chef",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Berlin, Min-seo had no choice but to join the game."
+    },
+    {
+        "participant_number": "219",
+        "name": "Fatima Kim",
+        "age": 28,
+        "occupation": "Truck Driver",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima is a Truck Driver from Bangkok who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "220",
+        "name": "Aisha Takahashi",
+        "age": 56,
+        "occupation": "Construction Worker",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha is a Construction Worker from Mexico City who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "221",
+        "name": "Fatima Park",
+        "age": 52,
+        "occupation": "Social Media Influencer",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima is a Social Media Influencer from Tokyo who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "222",
+        "name": "Ji-hoon Garcia",
+        "age": 38,
+        "occupation": "Athlete",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon left Moscow to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "223",
+        "name": "Sophia Park",
+        "age": 46,
+        "occupation": "Factory Worker",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia is a Factory Worker from Seoul who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "224",
+        "name": "Ji-hoon Brown",
+        "age": 18,
+        "occupation": "Truck Driver",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon left Tokyo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "225",
+        "name": "Kenji Hernandez",
+        "age": 31,
+        "occupation": "Fashion Designer",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji is a Fashion Designer from Tokyo who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "226",
+        "name": "Kenji Lee",
+        "age": 60,
+        "occupation": "Social Media Influencer",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji Lee used to be a Social Media Influencer in Seoul but lost everything due to debt."
+    },
+    {
+        "participant_number": "227",
+        "name": "Ji-hoon Park",
+        "age": 43,
+        "occupation": "Scientist",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon left Cairo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "228",
+        "name": "Min-seo Hernandez",
+        "age": 47,
+        "occupation": "Musician",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo left Mexico City to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "229",
+        "name": "Min-seo Kim",
+        "age": 43,
+        "occupation": "Taxi Driver",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Taxi Driver, Min-seo is now struggling to pay rent in Moscow."
+    },
+    {
+        "participant_number": "230",
+        "name": "Daniel Nguyen",
+        "age": 50,
+        "occupation": "Soldier",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel is a Soldier from Rio de Janeiro who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "231",
+        "name": "Kenji Choi",
+        "age": 33,
+        "occupation": "Stockbroker",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Seoul, Kenji had no choice but to join the game."
+    },
+    {
+        "participant_number": "232",
+        "name": "Carlos Singh",
+        "age": 29,
+        "occupation": "Athlete",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos is a Athlete from Tokyo who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "233",
+        "name": "Fatima Singh",
+        "age": 33,
+        "occupation": "Chef",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Tokyo, Fatima had no choice but to join the game."
+    },
+    {
+        "participant_number": "234",
+        "name": "Sophia Nguyen",
+        "age": 59,
+        "occupation": "Taxi Driver",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia is a Taxi Driver from Rio de Janeiro who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "235",
+        "name": "Ji-hoon Singh",
+        "age": 49,
+        "occupation": "Stockbroker",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Stockbroker, Ji-hoon is now struggling to pay rent in Mumbai."
+    },
+    {
+        "participant_number": "236",
+        "name": "Daniel Takahashi",
+        "age": 25,
+        "occupation": "Fashion Designer",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Fashion Designer, Daniel is now struggling to pay rent in Berlin."
+    },
+    {
+        "participant_number": "237",
+        "name": "Ji-hoon Lee",
+        "age": 50,
+        "occupation": "Waiter",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon left Moscow to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "238",
+        "name": "Kenji Takahashi",
+        "age": 49,
+        "occupation": "Investment Banker",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Investment Banker, Kenji is now struggling to pay rent in Cairo."
+    },
+    {
+        "participant_number": "239",
+        "name": "Carlos Takahashi",
+        "age": 44,
+        "occupation": "Athlete",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos is a Athlete from Seoul who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "240",
+        "name": "Min-seo Kim",
+        "age": 51,
+        "occupation": "Social Media Influencer",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo Kim used to be a Social Media Influencer in Tokyo but lost everything due to debt."
+    },
+    {
+        "participant_number": "241",
+        "name": "Kenji Park",
+        "age": 26,
+        "occupation": "Waiter",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Waiter, Kenji is now struggling to pay rent in Tokyo."
+    },
+    {
+        "participant_number": "242",
+        "name": "Liam Kim",
+        "age": 42,
+        "occupation": "Police Officer",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Bangkok, Liam had no choice but to join the game."
+    },
+    {
+        "participant_number": "243",
+        "name": "Fatima Park",
+        "age": 35,
+        "occupation": "Investment Banker",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima left Bangkok to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "244",
+        "name": "Aisha Kim",
+        "age": 27,
+        "occupation": "Waiter",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha is a Waiter from Bangkok who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "245",
+        "name": "Aisha Kim",
+        "age": 37,
+        "occupation": "Fisherman",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Berlin, Aisha had no choice but to join the game."
+    },
+    {
+        "participant_number": "246",
+        "name": "Elena Singh",
+        "age": 51,
+        "occupation": "Social Media Influencer",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena is a Social Media Influencer from Rio de Janeiro who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "247",
+        "name": "Liam Park",
+        "age": 32,
+        "occupation": "Athlete",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam Park used to be a Athlete in Moscow but lost everything due to debt."
+    },
+    {
+        "participant_number": "248",
+        "name": "Min-seo Choi",
+        "age": 45,
+        "occupation": "Athlete",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo Choi used to be a Athlete in Seoul but lost everything due to debt."
+    },
+    {
+        "participant_number": "249",
+        "name": "Daniel Nguyen",
+        "age": 25,
+        "occupation": "Electrician",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Mumbai, Daniel had no choice but to join the game."
+    },
+    {
+        "participant_number": "250",
+        "name": "Fatima Brown",
+        "age": 46,
+        "occupation": "Waiter",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima Brown used to be a Waiter in New York but lost everything due to debt."
+    },
+    {
+        "participant_number": "251",
+        "name": "Sophia Singh",
+        "age": 34,
+        "occupation": "Scientist",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia left New York to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "252",
+        "name": "Aisha Brown",
+        "age": 18,
+        "occupation": "Chef",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha Brown used to be a Chef in New York but lost everything due to debt."
+    },
+    {
+        "participant_number": "253",
+        "name": "Min-seo Garcia",
+        "age": 24,
+        "occupation": "Police Officer",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo is a Police Officer from Seoul who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "254",
+        "name": "Aisha Choi",
+        "age": 57,
+        "occupation": "Teacher",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Teacher, Aisha is now struggling to pay rent in Mexico City."
+    },
+    {
+        "participant_number": "255",
+        "name": "Kenji Nguyen",
+        "age": 33,
+        "occupation": "Teacher",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji left New York to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "256",
+        "name": "Daniel Kim",
+        "age": 48,
+        "occupation": "Stockbroker",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Stockbroker, Daniel is now struggling to pay rent in Mumbai."
+    },
+    {
+        "participant_number": "257",
+        "name": "Ji-hoon Garcia",
+        "age": 43,
+        "occupation": "Athlete",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon Garcia used to be a Athlete in Tokyo but lost everything due to debt."
+    },
+    {
+        "participant_number": "258",
+        "name": "Sophia Lee",
+        "age": 43,
+        "occupation": "Journalist",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia left Rio de Janeiro to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "259",
+        "name": "Fatima Park",
+        "age": 56,
+        "occupation": "Factory Worker",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima left Mexico City to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "260",
+        "name": "Ji-hoon Singh",
+        "age": 25,
+        "occupation": "Firefighter",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon Singh used to be a Firefighter in Berlin but lost everything due to debt."
+    },
+    {
+        "participant_number": "261",
+        "name": "Liam Lee",
+        "age": 28,
+        "occupation": "Fashion Designer",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam left Cairo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "262",
+        "name": "Elena Singh",
+        "age": 47,
+        "occupation": "Construction Worker",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena left Berlin to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "263",
+        "name": "Fatima Lee",
+        "age": 53,
+        "occupation": "Investment Banker",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Investment Banker, Fatima is now struggling to pay rent in Tokyo."
+    },
+    {
+        "participant_number": "264",
+        "name": "Liam Choi",
+        "age": 27,
+        "occupation": "Farmer",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam is a Farmer from Mexico City who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "265",
+        "name": "Min-seo Choi",
+        "age": 56,
+        "occupation": "Musician",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Musician, Min-seo is now struggling to pay rent in Rio de Janeiro."
+    },
+    {
+        "participant_number": "266",
+        "name": "Ji-hoon Brown",
+        "age": 19,
+        "occupation": "Car Mechanic",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in New York, Ji-hoon had no choice but to join the game."
+    },
+    {
+        "participant_number": "267",
+        "name": "Sophia Hernandez",
+        "age": 36,
+        "occupation": "Electrician",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Electrician, Sophia is now struggling to pay rent in Berlin."
+    },
+    {
+        "participant_number": "268",
+        "name": "Fatima Park",
+        "age": 52,
+        "occupation": "Fashion Designer",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Seoul, Fatima had no choice but to join the game."
+    },
+    {
+        "participant_number": "269",
+        "name": "Aisha Choi",
+        "age": 28,
+        "occupation": "Taxi Driver",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha left Mumbai to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "270",
+        "name": "Sophia Hernandez",
+        "age": 52,
+        "occupation": "Fashion Designer",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia left Rio de Janeiro to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "271",
+        "name": "Kenji Brown",
+        "age": 59,
+        "occupation": "Farmer",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Seoul, Kenji had no choice but to join the game."
+    },
+    {
+        "participant_number": "272",
+        "name": "Fatima Brown",
+        "age": 55,
+        "occupation": "Factory Worker",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima Brown used to be a Factory Worker in Mexico City but lost everything due to debt."
+    },
+    {
+        "participant_number": "273",
+        "name": "Sophia Singh",
+        "age": 29,
+        "occupation": "Firefighter",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia Singh used to be a Firefighter in Mumbai but lost everything due to debt."
+    },
+    {
+        "participant_number": "274",
+        "name": "Elena Garcia",
+        "age": 51,
+        "occupation": "Car Mechanic",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena left New York to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "275",
+        "name": "Min-seo Lee",
+        "age": 36,
+        "occupation": "Police Officer",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo is a Police Officer from Cairo who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "276",
+        "name": "Min-seo Hernandez",
+        "age": 54,
+        "occupation": "Farmer",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo left Tokyo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "277",
+        "name": "Carlos Brown",
+        "age": 52,
+        "occupation": "Factory Worker",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos is a Factory Worker from New York who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "278",
+        "name": "Fatima Lee",
+        "age": 28,
+        "occupation": "Taxi Driver",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima Lee used to be a Taxi Driver in Mexico City but lost everything due to debt."
+    },
+    {
+        "participant_number": "279",
+        "name": "Min-seo Choi",
+        "age": 45,
+        "occupation": "Firefighter",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo left Cairo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "280",
+        "name": "Carlos Brown",
+        "age": 39,
+        "occupation": "Stockbroker",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Stockbroker, Carlos is now struggling to pay rent in Bangkok."
+    },
+    {
+        "participant_number": "281",
+        "name": "Daniel Garcia",
+        "age": 53,
+        "occupation": "Fashion Designer",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel is a Fashion Designer from Cairo who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "282",
+        "name": "Elena Brown",
+        "age": 31,
+        "occupation": "Chef",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena is a Chef from Seoul who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "283",
+        "name": "Liam Kim",
+        "age": 23,
+        "occupation": "Construction Worker",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam left Berlin to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "284",
+        "name": "Carlos Brown",
+        "age": 60,
+        "occupation": "Waiter",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Mumbai, Carlos had no choice but to join the game."
+    },
+    {
+        "participant_number": "285",
+        "name": "Fatima Takahashi",
+        "age": 55,
+        "occupation": "Fisherman",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima Takahashi used to be a Fisherman in Mexico City but lost everything due to debt."
+    },
+    {
+        "participant_number": "286",
+        "name": "Carlos Hernandez",
+        "age": 57,
+        "occupation": "Electrician",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Electrician, Carlos is now struggling to pay rent in Seoul."
+    },
+    {
+        "participant_number": "287",
+        "name": "Daniel Garcia",
+        "age": 50,
+        "occupation": "Stockbroker",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Stockbroker, Daniel is now struggling to pay rent in New York."
+    },
+    {
+        "participant_number": "288",
+        "name": "Aisha Choi",
+        "age": 45,
+        "occupation": "Electrician",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha is a Electrician from Tokyo who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "289",
+        "name": "Aisha Brown",
+        "age": 46,
+        "occupation": "Fashion Designer",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha is a Fashion Designer from Mexico City who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "290",
+        "name": "Ji-hoon Park",
+        "age": 39,
+        "occupation": "Teacher",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Teacher, Ji-hoon is now struggling to pay rent in Mexico City."
+    },
+    {
+        "participant_number": "291",
+        "name": "Liam Takahashi",
+        "age": 29,
+        "occupation": "Soldier",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam left Moscow to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "292",
+        "name": "Min-seo Lee",
+        "age": 55,
+        "occupation": "Teacher",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo is a Teacher from Moscow who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "293",
+        "name": "Kenji Garcia",
+        "age": 28,
+        "occupation": "Fisherman",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji Garcia used to be a Fisherman in Seoul but lost everything due to debt."
+    },
+    {
+        "participant_number": "294",
+        "name": "Kenji Park",
+        "age": 18,
+        "occupation": "Waiter",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Waiter, Kenji is now struggling to pay rent in Seoul."
+    },
+    {
+        "participant_number": "295",
+        "name": "Liam Garcia",
+        "age": 56,
+        "occupation": "Truck Driver",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Tokyo, Liam had no choice but to join the game."
+    },
+    {
+        "participant_number": "296",
+        "name": "Min-seo Nguyen",
+        "age": 40,
+        "occupation": "Fashion Designer",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo Nguyen used to be a Fashion Designer in Rio de Janeiro but lost everything due to debt."
+    },
+    {
+        "participant_number": "297",
+        "name": "Carlos Lee",
+        "age": 39,
+        "occupation": "Chef",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos left Seoul to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "298",
+        "name": "Kenji Garcia",
+        "age": 48,
+        "occupation": "Soldier",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji is a Soldier from Bangkok who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "299",
+        "name": "Carlos Nguyen",
+        "age": 28,
+        "occupation": "Truck Driver",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Truck Driver, Carlos is now struggling to pay rent in New York."
+    },
+    {
+        "participant_number": "300",
+        "name": "Ji-hoon Singh",
+        "age": 49,
+        "occupation": "Stockbroker",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Stockbroker, Ji-hoon is now struggling to pay rent in New York."
+    },
+    {
+        "participant_number": "301",
+        "name": "Kenji Takahashi",
+        "age": 21,
+        "occupation": "Fisherman",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji left Bangkok to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "302",
+        "name": "Fatima Takahashi",
+        "age": 39,
+        "occupation": "Truck Driver",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima Takahashi used to be a Truck Driver in Mexico City but lost everything due to debt."
+    },
+    {
+        "participant_number": "303",
+        "name": "Carlos Kim",
+        "age": 44,
+        "occupation": "Chef",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos Kim used to be a Chef in Bangkok but lost everything due to debt."
+    },
+    {
+        "participant_number": "304",
+        "name": "Min-seo Takahashi",
+        "age": 57,
+        "occupation": "Car Mechanic",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Mexico City, Min-seo had no choice but to join the game."
+    },
+    {
+        "participant_number": "305",
+        "name": "Ji-hoon Kim",
+        "age": 53,
+        "occupation": "Musician",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon Kim used to be a Musician in Seoul but lost everything due to debt."
+    },
+    {
+        "participant_number": "306",
+        "name": "Liam Lee",
+        "age": 47,
+        "occupation": "Firefighter",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Cairo, Liam had no choice but to join the game."
+    },
+    {
+        "participant_number": "307",
+        "name": "Ji-hoon Singh",
+        "age": 47,
+        "occupation": "Truck Driver",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon is a Truck Driver from Rio de Janeiro who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "308",
+        "name": "Sophia Kim",
+        "age": 52,
+        "occupation": "Chef",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia Kim used to be a Chef in Tokyo but lost everything due to debt."
+    },
+    {
+        "participant_number": "309",
+        "name": "Elena Singh",
+        "age": 24,
+        "occupation": "Chef",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena left Mumbai to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "310",
+        "name": "Sophia Brown",
+        "age": 30,
+        "occupation": "Farmer",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia left Seoul to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "311",
+        "name": "Daniel Hernandez",
+        "age": 20,
+        "occupation": "Firefighter",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Firefighter, Daniel is now struggling to pay rent in Bangkok."
+    },
+    {
+        "participant_number": "312",
+        "name": "Fatima Nguyen",
+        "age": 50,
+        "occupation": "Investment Banker",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Seoul, Fatima had no choice but to join the game."
+    },
+    {
+        "participant_number": "313",
+        "name": "Carlos Takahashi",
+        "age": 21,
+        "occupation": "Investment Banker",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos left Rio de Janeiro to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "314",
+        "name": "Kenji Choi",
+        "age": 26,
+        "occupation": "Investment Banker",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji left Moscow to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "315",
+        "name": "Carlos Choi",
+        "age": 53,
+        "occupation": "Scientist",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos is a Scientist from Mexico City who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "316",
+        "name": "Daniel Brown",
+        "age": 41,
+        "occupation": "Teacher",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Teacher, Daniel is now struggling to pay rent in Tokyo."
+    },
+    {
+        "participant_number": "317",
+        "name": "Fatima Singh",
+        "age": 47,
+        "occupation": "Waiter",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima is a Waiter from Mexico City who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "318",
+        "name": "Aisha Hernandez",
+        "age": 39,
+        "occupation": "Teacher",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha Hernandez used to be a Teacher in Tokyo but lost everything due to debt."
+    },
+    {
+        "participant_number": "319",
+        "name": "Elena Singh",
+        "age": 31,
+        "occupation": "Athlete",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena left Cairo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "320",
+        "name": "Sophia Park",
+        "age": 38,
+        "occupation": "Fashion Designer",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Fashion Designer, Sophia is now struggling to pay rent in Cairo."
+    },
+    {
+        "participant_number": "321",
+        "name": "Fatima Lee",
+        "age": 37,
+        "occupation": "Investment Banker",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Cairo, Fatima had no choice but to join the game."
+    },
+    {
+        "participant_number": "322",
+        "name": "Aisha Nguyen",
+        "age": 45,
+        "occupation": "Stockbroker",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Mexico City, Aisha had no choice but to join the game."
+    },
+    {
+        "participant_number": "323",
+        "name": "Elena Singh",
+        "age": 55,
+        "occupation": "Truck Driver",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Truck Driver, Elena is now struggling to pay rent in Moscow."
+    },
+    {
+        "participant_number": "324",
+        "name": "Aisha Brown",
+        "age": 52,
+        "occupation": "Farmer",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha is a Farmer from Mexico City who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "325",
+        "name": "Elena Takahashi",
+        "age": 27,
+        "occupation": "Photographer",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Berlin, Elena had no choice but to join the game."
+    },
+    {
+        "participant_number": "326",
+        "name": "Liam Nguyen",
+        "age": 57,
+        "occupation": "Investment Banker",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Investment Banker, Liam is now struggling to pay rent in Bangkok."
+    },
+    {
+        "participant_number": "327",
+        "name": "Ji-hoon Lee",
+        "age": 42,
+        "occupation": "Fisherman",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon is a Fisherman from Cairo who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "328",
+        "name": "Fatima Takahashi",
+        "age": 45,
+        "occupation": "Athlete",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima Takahashi used to be a Athlete in Tokyo but lost everything due to debt."
+    },
+    {
+        "participant_number": "329",
+        "name": "Fatima Lee",
+        "age": 24,
+        "occupation": "Athlete",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima left Moscow to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "330",
+        "name": "Daniel Singh",
+        "age": 33,
+        "occupation": "Soldier",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel Singh used to be a Soldier in Rio de Janeiro but lost everything due to debt."
+    },
+    {
+        "participant_number": "331",
+        "name": "Ji-hoon Park",
+        "age": 52,
+        "occupation": "Electrician",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Tokyo, Ji-hoon had no choice but to join the game."
+    },
+    {
+        "participant_number": "332",
+        "name": "Kenji Hernandez",
+        "age": 48,
+        "occupation": "Firefighter",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji is a Firefighter from Seoul who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "333",
+        "name": "Aisha Park",
+        "age": 29,
+        "occupation": "Musician",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Cairo, Aisha had no choice but to join the game."
+    },
+    {
+        "participant_number": "334",
+        "name": "Elena Lee",
+        "age": 55,
+        "occupation": "Factory Worker",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena is a Factory Worker from Moscow who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "335",
+        "name": "Kenji Park",
+        "age": 60,
+        "occupation": "Soldier",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji left New York to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "336",
+        "name": "Aisha Lee",
+        "age": 57,
+        "occupation": "Fisherman",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha is a Fisherman from Rio de Janeiro who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "337",
+        "name": "Sophia Singh",
+        "age": 50,
+        "occupation": "Truck Driver",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Truck Driver, Sophia is now struggling to pay rent in Mumbai."
+    },
+    {
+        "participant_number": "338",
+        "name": "Kenji Brown",
+        "age": 25,
+        "occupation": "Chef",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji left Seoul to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "339",
+        "name": "Daniel Park",
+        "age": 50,
+        "occupation": "Factory Worker",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel Park used to be a Factory Worker in Berlin but lost everything due to debt."
+    },
+    {
+        "participant_number": "340",
+        "name": "Elena Park",
+        "age": 22,
+        "occupation": "Journalist",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena left Cairo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "341",
+        "name": "Elena Brown",
+        "age": 57,
+        "occupation": "Truck Driver",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Truck Driver, Elena is now struggling to pay rent in New York."
+    },
+    {
+        "participant_number": "342",
+        "name": "Carlos Park",
+        "age": 18,
+        "occupation": "Soldier",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Soldier, Carlos is now struggling to pay rent in New York."
+    },
+    {
+        "participant_number": "343",
+        "name": "Daniel Kim",
+        "age": 49,
+        "occupation": "Firefighter",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Firefighter, Daniel is now struggling to pay rent in New York."
+    },
+    {
+        "participant_number": "344",
+        "name": "Kenji Park",
+        "age": 45,
+        "occupation": "Fashion Designer",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Mumbai, Kenji had no choice but to join the game."
+    },
+    {
+        "participant_number": "345",
+        "name": "Min-seo Hernandez",
+        "age": 57,
+        "occupation": "Electrician",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo Hernandez used to be a Electrician in Rio de Janeiro but lost everything due to debt."
+    },
+    {
+        "participant_number": "346",
+        "name": "Min-seo Singh",
+        "age": 54,
+        "occupation": "Photographer",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo Singh used to be a Photographer in Bangkok but lost everything due to debt."
+    },
+    {
+        "participant_number": "347",
+        "name": "Liam Hernandez",
+        "age": 59,
+        "occupation": "Car Mechanic",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam left Moscow to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "348",
+        "name": "Daniel Park",
+        "age": 34,
+        "occupation": "Chef",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Bangkok, Daniel had no choice but to join the game."
+    },
+    {
+        "participant_number": "349",
+        "name": "Aisha Lee",
+        "age": 49,
+        "occupation": "Electrician",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha Lee used to be a Electrician in Berlin but lost everything due to debt."
+    },
+    {
+        "participant_number": "350",
+        "name": "Aisha Park",
+        "age": 46,
+        "occupation": "Soldier",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha Park used to be a Soldier in New York but lost everything due to debt."
+    },
+    {
+        "participant_number": "351",
+        "name": "Daniel Takahashi",
+        "age": 25,
+        "occupation": "Firefighter",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Firefighter, Daniel is now struggling to pay rent in Bangkok."
+    },
+    {
+        "participant_number": "352",
+        "name": "Ji-hoon Kim",
+        "age": 48,
+        "occupation": "Stockbroker",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Bangkok, Ji-hoon had no choice but to join the game."
+    },
+    {
+        "participant_number": "353",
+        "name": "Elena Kim",
+        "age": 36,
+        "occupation": "Factory Worker",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Mumbai, Elena had no choice but to join the game."
+    },
+    {
+        "participant_number": "354",
+        "name": "Ji-hoon Brown",
+        "age": 50,
+        "occupation": "Taxi Driver",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Taxi Driver, Ji-hoon is now struggling to pay rent in Tokyo."
+    },
+    {
+        "participant_number": "355",
+        "name": "Fatima Choi",
+        "age": 37,
+        "occupation": "Fashion Designer",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Fashion Designer, Fatima is now struggling to pay rent in Moscow."
+    },
+    {
+        "participant_number": "356",
+        "name": "Aisha Nguyen",
+        "age": 24,
+        "occupation": "Car Mechanic",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha is a Car Mechanic from Bangkok who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "357",
+        "name": "Ji-hoon Takahashi",
+        "age": 33,
+        "occupation": "Chef",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon left Cairo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "358",
+        "name": "Daniel Lee",
+        "age": 32,
+        "occupation": "Chef",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel is a Chef from Mumbai who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "359",
+        "name": "Daniel Brown",
+        "age": 56,
+        "occupation": "Farmer",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel is a Farmer from Berlin who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "360",
+        "name": "Carlos Garcia",
+        "age": 57,
+        "occupation": "Farmer",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos Garcia used to be a Farmer in Seoul but lost everything due to debt."
+    },
+    {
+        "participant_number": "361",
+        "name": "Daniel Brown",
+        "age": 18,
+        "occupation": "Factory Worker",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel left Seoul to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "362",
+        "name": "Daniel Choi",
+        "age": 60,
+        "occupation": "Truck Driver",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Seoul, Daniel had no choice but to join the game."
+    },
+    {
+        "participant_number": "363",
+        "name": "Daniel Park",
+        "age": 47,
+        "occupation": "Police Officer",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Police Officer, Daniel is now struggling to pay rent in Cairo."
+    },
+    {
+        "participant_number": "364",
+        "name": "Sophia Lee",
+        "age": 42,
+        "occupation": "Investment Banker",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia left Mumbai to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "365",
+        "name": "Kenji Takahashi",
+        "age": 44,
+        "occupation": "Teacher",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Teacher, Kenji is now struggling to pay rent in Moscow."
+    },
+    {
+        "participant_number": "366",
+        "name": "Fatima Kim",
+        "age": 26,
+        "occupation": "Firefighter",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima left Mexico City to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "367",
+        "name": "Elena Singh",
+        "age": 50,
+        "occupation": "Teacher",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena is a Teacher from Mexico City who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "368",
+        "name": "Ji-hoon Brown",
+        "age": 54,
+        "occupation": "Investment Banker",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Seoul, Ji-hoon had no choice but to join the game."
+    },
+    {
+        "participant_number": "369",
+        "name": "Elena Park",
+        "age": 23,
+        "occupation": "Taxi Driver",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Taxi Driver, Elena is now struggling to pay rent in Rio de Janeiro."
+    },
+    {
+        "participant_number": "370",
+        "name": "Kenji Park",
+        "age": 44,
+        "occupation": "Investment Banker",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Cairo, Kenji had no choice but to join the game."
+    },
+    {
+        "participant_number": "371",
+        "name": "Daniel Nguyen",
+        "age": 46,
+        "occupation": "Investment Banker",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel Nguyen used to be a Investment Banker in Rio de Janeiro but lost everything due to debt."
+    },
+    {
+        "participant_number": "372",
+        "name": "Aisha Singh",
+        "age": 32,
+        "occupation": "Waiter",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Mexico City, Aisha had no choice but to join the game."
+    },
+    {
+        "participant_number": "373",
+        "name": "Elena Takahashi",
+        "age": 47,
+        "occupation": "Fisherman",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena is a Fisherman from Rio de Janeiro who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "374",
+        "name": "Fatima Garcia",
+        "age": 28,
+        "occupation": "Musician",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima left Seoul to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "375",
+        "name": "Elena Hernandez",
+        "age": 30,
+        "occupation": "Electrician",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena is a Electrician from New York who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "376",
+        "name": "Aisha Choi",
+        "age": 44,
+        "occupation": "Photographer",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha Choi used to be a Photographer in Mumbai but lost everything due to debt."
+    },
+    {
+        "participant_number": "377",
+        "name": "Aisha Lee",
+        "age": 49,
+        "occupation": "Electrician",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha left Moscow to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "378",
+        "name": "Liam Takahashi",
+        "age": 33,
+        "occupation": "Fashion Designer",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Mumbai, Liam had no choice but to join the game."
+    },
+    {
+        "participant_number": "379",
+        "name": "Fatima Singh",
+        "age": 33,
+        "occupation": "Social Media Influencer",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima is a Social Media Influencer from Mexico City who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "380",
+        "name": "Carlos Kim",
+        "age": 23,
+        "occupation": "Car Mechanic",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos is a Car Mechanic from Mumbai who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "381",
+        "name": "Aisha Brown",
+        "age": 28,
+        "occupation": "Stockbroker",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Stockbroker, Aisha is now struggling to pay rent in Cairo."
+    },
+    {
+        "participant_number": "382",
+        "name": "Liam Lee",
+        "age": 46,
+        "occupation": "Waiter",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam Lee used to be a Waiter in New York but lost everything due to debt."
+    },
+    {
+        "participant_number": "383",
+        "name": "Liam Brown",
+        "age": 59,
+        "occupation": "Construction Worker",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam Brown used to be a Construction Worker in Mexico City but lost everything due to debt."
+    },
+    {
+        "participant_number": "384",
+        "name": "Ji-hoon Choi",
+        "age": 29,
+        "occupation": "Truck Driver",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Truck Driver, Ji-hoon is now struggling to pay rent in Berlin."
+    },
+    {
+        "participant_number": "385",
+        "name": "Aisha Park",
+        "age": 28,
+        "occupation": "Electrician",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Electrician, Aisha is now struggling to pay rent in Mexico City."
+    },
+    {
+        "participant_number": "386",
+        "name": "Aisha Choi",
+        "age": 35,
+        "occupation": "Soldier",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha is a Soldier from Mexico City who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "387",
+        "name": "Aisha Brown",
+        "age": 55,
+        "occupation": "Factory Worker",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Factory Worker, Aisha is now struggling to pay rent in Tokyo."
+    },
+    {
+        "participant_number": "388",
+        "name": "Min-seo Takahashi",
+        "age": 32,
+        "occupation": "Waiter",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo Takahashi used to be a Waiter in Rio de Janeiro but lost everything due to debt."
+    },
+    {
+        "participant_number": "389",
+        "name": "Elena Nguyen",
+        "age": 21,
+        "occupation": "Stockbroker",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Mumbai, Elena had no choice but to join the game."
+    },
+    {
+        "participant_number": "390",
+        "name": "Liam Garcia",
+        "age": 28,
+        "occupation": "Chef",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Mumbai, Liam had no choice but to join the game."
+    },
+    {
+        "participant_number": "391",
+        "name": "Sophia Park",
+        "age": 54,
+        "occupation": "Fisherman",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia left Seoul to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "392",
+        "name": "Min-seo Choi",
+        "age": 42,
+        "occupation": "Car Mechanic",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo left Seoul to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "393",
+        "name": "Liam Hernandez",
+        "age": 51,
+        "occupation": "Stockbroker",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Stockbroker, Liam is now struggling to pay rent in Berlin."
+    },
+    {
+        "participant_number": "394",
+        "name": "Fatima Brown",
+        "age": 41,
+        "occupation": "Teacher",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima left Tokyo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "395",
+        "name": "Aisha Kim",
+        "age": 23,
+        "occupation": "Waiter",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Seoul, Aisha had no choice but to join the game."
+    },
+    {
+        "participant_number": "396",
+        "name": "Liam Singh",
+        "age": 20,
+        "occupation": "Factory Worker",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Factory Worker, Liam is now struggling to pay rent in Mexico City."
+    },
+    {
+        "participant_number": "397",
+        "name": "Sophia Garcia",
+        "age": 19,
+        "occupation": "Firefighter",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia Garcia used to be a Firefighter in Seoul but lost everything due to debt."
+    },
+    {
+        "participant_number": "398",
+        "name": "Carlos Park",
+        "age": 42,
+        "occupation": "Social Media Influencer",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos Park used to be a Social Media Influencer in New York but lost everything due to debt."
+    },
+    {
+        "participant_number": "399",
+        "name": "Fatima Hernandez",
+        "age": 45,
+        "occupation": "Farmer",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima left Moscow to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "400",
+        "name": "Kenji Kim",
+        "age": 44,
+        "occupation": "Farmer",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji left Tokyo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "401",
+        "name": "Min-seo Takahashi",
+        "age": 43,
+        "occupation": "Journalist",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo left Tokyo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "402",
+        "name": "Min-seo Lee",
+        "age": 39,
+        "occupation": "Journalist",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Moscow, Min-seo had no choice but to join the game."
+    },
+    {
+        "participant_number": "403",
+        "name": "Carlos Hernandez",
+        "age": 47,
+        "occupation": "Journalist",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos left Bangkok to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "404",
+        "name": "Elena Brown",
+        "age": 50,
+        "occupation": "Musician",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Musician, Elena is now struggling to pay rent in New York."
+    },
+    {
+        "participant_number": "405",
+        "name": "Elena Kim",
+        "age": 53,
+        "occupation": "Fisherman",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena left Rio de Janeiro to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "406",
+        "name": "Aisha Park",
+        "age": 37,
+        "occupation": "Musician",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha left Bangkok to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "407",
+        "name": "Aisha Garcia",
+        "age": 32,
+        "occupation": "Waiter",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Waiter, Aisha is now struggling to pay rent in Rio de Janeiro."
+    },
+    {
+        "participant_number": "408",
+        "name": "Liam Takahashi",
+        "age": 23,
+        "occupation": "Soldier",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Seoul, Liam had no choice but to join the game."
+    },
+    {
+        "participant_number": "409",
+        "name": "Aisha Garcia",
+        "age": 29,
+        "occupation": "Scientist",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Scientist, Aisha is now struggling to pay rent in New York."
+    },
+    {
+        "participant_number": "410",
+        "name": "Kenji Brown",
+        "age": 39,
+        "occupation": "Construction Worker",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji Brown used to be a Construction Worker in Tokyo but lost everything due to debt."
+    },
+    {
+        "participant_number": "411",
+        "name": "Liam Takahashi",
+        "age": 49,
+        "occupation": "Car Mechanic",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Car Mechanic, Liam is now struggling to pay rent in Seoul."
+    },
+    {
+        "participant_number": "412",
+        "name": "Kenji Nguyen",
+        "age": 25,
+        "occupation": "Factory Worker",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji left Moscow to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "413",
+        "name": "Kenji Hernandez",
+        "age": 56,
+        "occupation": "Factory Worker",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Factory Worker, Kenji is now struggling to pay rent in Seoul."
+    },
+    {
+        "participant_number": "414",
+        "name": "Liam Park",
+        "age": 26,
+        "occupation": "Electrician",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam left Bangkok to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "415",
+        "name": "Carlos Brown",
+        "age": 34,
+        "occupation": "Photographer",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos Brown used to be a Photographer in Mumbai but lost everything due to debt."
+    },
+    {
+        "participant_number": "416",
+        "name": "Min-seo Singh",
+        "age": 54,
+        "occupation": "Journalist",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Journalist, Min-seo is now struggling to pay rent in Seoul."
+    },
+    {
+        "participant_number": "417",
+        "name": "Min-seo Lee",
+        "age": 40,
+        "occupation": "Car Mechanic",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo left Bangkok to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "418",
+        "name": "Elena Singh",
+        "age": 59,
+        "occupation": "Soldier",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena is a Soldier from Bangkok who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "419",
+        "name": "Ji-hoon Park",
+        "age": 49,
+        "occupation": "Teacher",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Tokyo, Ji-hoon had no choice but to join the game."
+    },
+    {
+        "participant_number": "420",
+        "name": "Ji-hoon Garcia",
+        "age": 56,
+        "occupation": "Electrician",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon is a Electrician from Mumbai who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "421",
+        "name": "Liam Kim",
+        "age": 25,
+        "occupation": "Waiter",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Waiter, Liam is now struggling to pay rent in New York."
+    },
+    {
+        "participant_number": "422",
+        "name": "Min-seo Garcia",
+        "age": 33,
+        "occupation": "Scientist",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo is a Scientist from Rio de Janeiro who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "423",
+        "name": "Kenji Lee",
+        "age": 56,
+        "occupation": "Chef",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji is a Chef from New York who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "424",
+        "name": "Kenji Nguyen",
+        "age": 20,
+        "occupation": "Police Officer",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji Nguyen used to be a Police Officer in Berlin but lost everything due to debt."
+    },
+    {
+        "participant_number": "425",
+        "name": "Daniel Hernandez",
+        "age": 35,
+        "occupation": "Journalist",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel is a Journalist from Seoul who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "426",
+        "name": "Ji-hoon Kim",
+        "age": 44,
+        "occupation": "Waiter",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Ji-hoon Kim used to be a Waiter in Mexico City but lost everything due to debt."
+    },
+    {
+        "participant_number": "427",
+        "name": "Fatima Brown",
+        "age": 54,
+        "occupation": "Journalist",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima left New York to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "428",
+        "name": "Kenji Garcia",
+        "age": 21,
+        "occupation": "Investment Banker",
+        "location": "Bangkok",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Bangkok, Kenji had no choice but to join the game."
+    },
+    {
+        "participant_number": "429",
+        "name": "Min-seo Lee",
+        "age": 21,
+        "occupation": "Construction Worker",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo Lee used to be a Construction Worker in Tokyo but lost everything due to debt."
+    },
+    {
+        "participant_number": "430",
+        "name": "Liam Nguyen",
+        "age": 58,
+        "occupation": "Taxi Driver",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Taxi Driver, Liam is now struggling to pay rent in New York."
+    },
+    {
+        "participant_number": "431",
+        "name": "Fatima Hernandez",
+        "age": 24,
+        "occupation": "Waiter",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima left Tokyo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "432",
+        "name": "Daniel Kim",
+        "age": 53,
+        "occupation": "Scientist",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Scientist, Daniel is now struggling to pay rent in Mexico City."
+    },
+    {
+        "participant_number": "433",
+        "name": "Sophia Lee",
+        "age": 44,
+        "occupation": "Police Officer",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Moscow, Sophia had no choice but to join the game."
+    },
+    {
+        "participant_number": "434",
+        "name": "Aisha Brown",
+        "age": 59,
+        "occupation": "Chef",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Aisha left Moscow to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "435",
+        "name": "Elena Nguyen",
+        "age": 33,
+        "occupation": "Teacher",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Cairo, Elena had no choice but to join the game."
+    },
+    {
+        "participant_number": "436",
+        "name": "Elena Kim",
+        "age": 40,
+        "occupation": "Musician",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Elena is a Musician from Mexico City who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "437",
+        "name": "Liam Nguyen",
+        "age": 35,
+        "occupation": "Soldier",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam left Berlin to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "438",
+        "name": "Ji-hoon Kim",
+        "age": 41,
+        "occupation": "Fashion Designer",
+        "location": "Moscow",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Moscow, Ji-hoon had no choice but to join the game."
+    },
+    {
+        "participant_number": "439",
+        "name": "Fatima Kim",
+        "age": 21,
+        "occupation": "Fashion Designer",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Mexico City, Fatima had no choice but to join the game."
+    },
+    {
+        "participant_number": "440",
+        "name": "Liam Lee",
+        "age": 50,
+        "occupation": "Taxi Driver",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Liam left Tokyo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "441",
+        "name": "Fatima Kim",
+        "age": 35,
+        "occupation": "Investment Banker",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Fatima is a Investment Banker from Cairo who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "442",
+        "name": "Kenji Lee",
+        "age": 42,
+        "occupation": "Investment Banker",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji Lee used to be a Investment Banker in Tokyo but lost everything due to debt."
+    },
+    {
+        "participant_number": "443",
+        "name": "Kenji Hernandez",
+        "age": 44,
+        "occupation": "Waiter",
+        "location": "Mexico City",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Waiter, Kenji is now struggling to pay rent in Mexico City."
+    },
+    {
+        "participant_number": "444",
+        "name": "Elena Garcia",
+        "age": 48,
+        "occupation": "Scientist",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Scientist, Elena is now struggling to pay rent in Cairo."
+    },
+    {
+        "participant_number": "445",
+        "name": "Kenji Park",
+        "age": 41,
+        "occupation": "Fisherman",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji left Tokyo to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "446",
+        "name": "Daniel Kim",
+        "age": 28,
+        "occupation": "Musician",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Daniel Kim used to be a Musician in Berlin but lost everything due to debt."
+    },
+    {
+        "participant_number": "447",
+        "name": "Kenji Brown",
+        "age": 40,
+        "occupation": "Teacher",
+        "location": "Tokyo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji Brown used to be a Teacher in Tokyo but lost everything due to debt."
+    },
+    {
+        "participant_number": "448",
+        "name": "Sophia Nguyen",
+        "age": 45,
+        "occupation": "Journalist",
+        "location": "Rio de Janeiro",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "After a failed business venture in Rio de Janeiro, Sophia had no choice but to join the game."
+    },
+    {
+        "participant_number": "449",
+        "name": "Kenji Lee",
+        "age": 59,
+        "occupation": "Scientist",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji left Berlin to find better opportunities, but things didn\u2019t go as planned."
+    },
+    {
+        "participant_number": "450",
+        "name": "Aisha Lee",
+        "age": 30,
+        "occupation": "Investment Banker",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Once a thriving Investment Banker, Aisha is now struggling to pay rent in Berlin."
+    },
+    {
+        "participant_number": "451",
+        "name": "Carlos Brown",
+        "age": 18,
+        "occupation": "Teacher",
+        "location": "Berlin",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos Brown used to be a Teacher in Berlin but lost everything due to debt."
+    },
+    {
+        "participant_number": "452",
+        "name": "Min-seo Nguyen",
+        "age": 32,
+        "occupation": "Farmer",
+        "location": "Cairo",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo is a Farmer from Cairo who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "453",
+        "name": "Min-seo Lee",
+        "age": 60,
+        "occupation": "Musician",
+        "location": "New York",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Min-seo is a Musician from New York who was tricked into heavy financial burdens."
+    },
+    {
+        "participant_number": "454",
+        "name": "Kenji Lee",
+        "age": 22,
+        "occupation": "Construction Worker",
+        "location": "Mumbai",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Kenji Lee used to be a Construction Worker in Mumbai but lost everything due to debt."
+    },
+    {
+        "participant_number": "455",
+        "name": "Carlos Park",
+        "age": 20,
+        "occupation": "Soldier",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Carlos Park used to be a Soldier in Seoul but lost everything due to debt."
+    },
+    {
+        "participant_number": "456",
+        "name": "Sophia Lee",
+        "age": 44,
+        "occupation": "Construction Worker",
+        "location": "Seoul",
+        "status": "Alive",
+        "rounds_survived": 0,
+        "backstory": "Sophia left Seoul to find better opportunities, but things didn\u2019t go as planned."
+    }
+]

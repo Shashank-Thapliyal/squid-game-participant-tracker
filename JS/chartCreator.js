@@ -2,13 +2,10 @@ const ctx = document.getElementById('participantChart').getContext('2d');
 
 // Sample participant data
 const participants = [
-    { age: 22, city: "New York", value: 10 },
-    { age: 28, city: "Los Angeles", value: 15 },
-    { age: 35, city: "Chicago", value: 20 },
-    { age: 19, city: "New York", value: 12 },
-    { age: 42, city: "Los Angeles", value: 25 },
-    { age: 50, city: "Chicago", value: 18 },
+ 
 ];
+
+Promise.resolve
 
 // Function to filter and update the chart
 function updateChart() {
