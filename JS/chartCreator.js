@@ -1,69 +1,66 @@
-const ctx = document.getElementById('participantChart').getContext('2d');
+document.addEventListener("DOMContentLoaded", () => {
+    const ctx = document.getElementById("chart").getContext("2d");
+    const filter = document.getElementById("filter");
 
-// Sample participant data
-const participants = [
-    { age: 22, city: "New York", value: 10 },
-    { age: 28, city: "Los Angeles", value: 15 },
-    { age: 35, city: "Chicago", value: 20 },
-    { age: 19, city: "New York", value: 12 },
-    { age: 42, city: "Los Angeles", value: 25 },
-    { age: 50, city: "Chicago", value: 18 },
-];
+    let chartInstance;
 
-// Function to filter and update the chart
-function updateChart() {
-    const ageFilter = document.getElementById("ageFilter").value;
-    const cityFilter = document.getElementById("cityFilter").value;
+    fetch("./data.json")
+        .then(response => response.json())
+        .then(data => {
+            console.log("Data Loaded: ", data);  // Debugging step
+            filter.addEventListener("change", () => updateChart(data));
+            updateChart(data);
+        })
+        .catch(error => console.error("Error loading JSON:", error));
 
-    let filteredData = participants;
+    function updateChart(data) {
+        const selectedFilter = filter.value;
 
-    // Filter by age
-    if (ageFilter !== "all") {
-        const [minAge, maxAge] = ageFilter.split("-").map(Number);
-        filteredData = filteredData.filter(p => p.age >= minAge && p.age <= maxAge);
-    }
+        let labels = [];
+        let dataset = [];
 
-    // Filter by city
-    if (cityFilter !== "all") {
-        filteredData = filteredData.filter(p => p.city === cityFilter);
-    }
-
-    // Prepare data for chart
-    const labels = filteredData.map((p, index) => `Participant ${index + 1}`);
-    const values = filteredData.map(p => p.value);
-
-    // Update chart
-    chart.data.labels = labels;
-    chart.data.datasets[0].data = values;
-    chart.update();
-}
-
-// Initialize Chart.js
-const chart = new Chart(ctx, {
-    type: 'line',
-    data: {
-        labels: [],
-        datasets: [{
-            label: 'Participant Score',
-            data: [],
-            borderColor: 'blue',
-            borderWidth: 2,
-            fill: false
-        }]
-    },
-    options: {
-        responsive: true,
-        scales: {
-            y: {
-                beginAtZero: true
-            }
+        if (selectedFilter === "age") {
+            labels = data.map(participant => participant.name);
+            dataset = data.map(participant => participant.age);
+        } else if (selectedFilter === "location") {
+            const locationCounts = {};
+            data.forEach(participant => {
+                locationCounts[participant.location] = (locationCounts[participant.location] || 0) + 1;
+            });
+            labels = Object.keys(locationCounts);
+            dataset = Object.values(locationCounts);
+        } else if (selectedFilter === "eliminations") {
+            const rounds = {};
+            data.filter(p => p.status === "Eliminated").forEach(participant => {
+                rounds[participant.rounds_survived] = (rounds[participant.rounds_survived] || 0) + 1;
+            });
+            labels = Object.keys(rounds).sort((a, b) => a - b);
+            dataset = labels.map(key => rounds[key]);
         }
+
+        if (chartInstance) {
+            chartInstance.destroy();
+        }
+
+        console.log("Labels:", labels);
+        console.log("Dataset:", dataset);
+
+        chartInstance = new Chart(ctx, {
+            type: "line",
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: selectedFilter.replace(/^\w/, c => c.toUpperCase()),
+                    data: dataset,
+                    borderColor: "#e93e7d",
+                    backgroundColor: "rgba(0, 0, 255, 0.1)",
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false
+            }
+        });
     }
 });
-
-// Add event listeners to filters
-document.getElementById("ageFilter").addEventListener("change", updateChart);
-document.getElementById("cityFilter").addEventListener("change", updateChart);
-
-// Initial chart render
-updateChart();
