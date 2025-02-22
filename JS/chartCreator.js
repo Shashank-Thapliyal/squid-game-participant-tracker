@@ -1,66 +1,97 @@
-const ctx = document.getElementById('participantChart').getContext('2d');
+document.addEventListener("DOMContentLoaded", () => {
+    const ctx = document.getElementById("chart").getContext("2d");
+    const filter = document.getElementById("filter");
+    const remainingCountElement = document.getElementById("remainingCount");
 
-// Sample participant data
-const participants = [
- 
-];
+    let chartInstance;
 
-Promise.resolve
+    fetch("./data.json")
+        .then(response => response.json())
+        .then(data => {
+            console.log("Data Loaded: ", data);
+            filter.addEventListener("change", () => updateChart(data));
+            updateChart(data);
+        })
+        .catch(error => console.error("Error loading JSON:", error));
 
-// Function to filter and update the chart
-function updateChart() {
-    const ageFilter = document.getElementById("ageFilter").value;
-    const cityFilter = document.getElementById("cityFilter").value;
+    function updateChart(data) {
+        const selectedFilter = filter.value;
 
-    let filteredData = participants;
+        let labels = [];
+        let dataset = [];
 
-    // Filter by age
-    if (ageFilter !== "all") {
-        const [minAge, maxAge] = ageFilter.split("-").map(Number);
-        filteredData = filteredData.filter(p => p.age >= minAge && p.age <= maxAge);
-    }
-
-    // Filter by city
-    if (cityFilter !== "all") {
-        filteredData = filteredData.filter(p => p.city === cityFilter);
-    }
-
-    // Prepare data for chart
-    const labels = filteredData.map((p, index) => `Participant ${index + 1}`);
-    const values = filteredData.map(p => p.value);
-
-    // Update chart
-    chart.data.labels = labels;
-    chart.data.datasets[0].data = values;
-    chart.update();
-}
-
-// Initialize Chart.js
-const chart = new Chart(ctx, {
-    type: 'line',
-    data: {
-        labels: [],
-        datasets: [{
-            label: 'Participant Score',
-            data: [],
-            borderColor: 'blue',
-            borderWidth: 2,
-            fill: false
-        }]
-    },
-    options: {
-        responsive: true,
-        scales: {
-            y: {
-                beginAtZero: true
+        // Track eliminations per round
+        const rounds = {};
+        data.forEach(participant => {
+            if (participant.status === "Eliminated") {
+                rounds[participant.rounds_survived] = (rounds[participant.rounds_survived] || 0) + 1;
             }
+        });
+
+        // Get sorted round numbers
+        labels = Object.keys(rounds).sort((a, b) => a - b);
+        dataset = labels.map(round => rounds[round]);
+
+        // Track remaining participants per round
+        let totalParticipants = data.length;
+        let remainingParticipants = totalParticipants;
+        let remainingDataset = [];
+
+        labels.forEach(round => {
+            remainingParticipants -= rounds[round] || 0;
+            remainingDataset.push(remainingParticipants);
+        });
+
+        // Update remaining participants count
+        remainingCountElement.textContent = `Participants Remaining: ${remainingParticipants}`;
+
+        // Destroy previous chart
+        if (chartInstance) {
+            chartInstance.destroy();
         }
+
+        // Create new chart
+        chartInstance = new Chart(ctx, {
+            type: "line",
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        label: "Eliminations per Round",
+                        data: dataset,
+                        borderColor: "#e93e7d",
+                        backgroundColor: "rgba(233, 62, 125, 0.2)",
+                        fill: true
+                    },
+                    {
+                        label: "Participants Remaining",
+                        data: remainingDataset,
+                        borderColor: "#007bff",
+                        backgroundColor: "rgba(0, 123, 255, 0.2)",
+                        fill: true
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: "Rounds",
+                            font: { size: 14 }
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: "Number of Participants",
+                            font: { size: 14 }
+                        }
+                    }
+                }
+            }
+        });
     }
 });
-
-// Add event listeners to filters
-document.getElementById("ageFilter").addEventListener("change", updateChart);
-document.getElementById("cityFilter").addEventListener("change", updateChart);
-
-// Initial chart render
-updateChart();
