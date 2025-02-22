@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participant Data Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="./Assets/CSS/chart.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Participant Data Visualization</h1>
+
+        <div class="filters">
+            <label for="ageFilter">Filter by Age:</label>
+            <select id="ageFilter">
+                <option value="all">All Ages</option>
+                <option value="18-25">18-25</option>
+                <option value="26-35">26-35</option>
+                <option value="36-50">36-50</option>
+            </select>
+
+            <label for="cityFilter">Filter by City:</label>
+            <select id="cityFilter">
+                <option value="all">All Cities</option>
+                <option value="New York">New York</option>
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="Chicago">Chicago</option>
+            </select>
+        </div>
+
+        <canvas id="participantChart"></canvas>
+    </div>
+
+    <script src="./JS/chartCreator.js"></script>
+</body>
+</html>
