@@ -117,6 +117,120 @@ body {
   }
 
   
+
+  /* Dashboard Header Styling */
+.dashboard-header {
+    display: flex;
+    justify-content: space-between; /* Pushes h1 and button to opposite ends */
+    align-items: center; /* Aligns items vertically */
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 2.5rem;
+    color: #e93e7d;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+/* Button Styling */
+.dashboard-header button {
+    background-color: #e93e7d;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.dashboard-header button:hover {
+    background-color: #c32a5c;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .dashboard-header {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}
+
+/* Dashboard Header Styling */
+.dashboard-header {
+    display: flex;
+    justify-content: space-between; /* Keeps h1 left, buttons right */
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Button Container */
+.dashboard-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Adds spacing between buttons */
+}
+
+/* General Button Styling */
+.dashboard-buttons button {
+    background-color: #e93e7d;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+/* Hover Effect */
+.dashboard-buttons button:hover {
+    background-color: #c32a5c;
+    transform: scale(1.05);
+}
+
+/* Easter Egg Button - Optional Styling */
+#easterEgg {
+    background-color: #FFD700; /* Golden color for an Easter Egg feel */
+    color: black;
+}
+
+#easterEgg:hover {
+    background-color: #E6C200;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .dashboard-header {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .dashboard-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
 /* Header */
 h1 {
     font-size: 2.5rem;
@@ -215,3 +329,40 @@ h1 {
 .expander .dashboard-content {
     margin-left: 260px; /* Expands when sidebar opens */
 }
+
+
+/* Winner Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 40%;
+}
+
+.modal-content {
+    position: relative;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+

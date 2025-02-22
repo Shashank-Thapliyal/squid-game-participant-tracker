@@ -2,37 +2,44 @@ document.addEventListener("DOMContentLoaded", () => {
     const ctx = document.getElementById("chart").getContext("2d");
     const filter = document.getElementById("filter");
     const remainingCountElement = document.getElementById("remainingCount");
-
     let chartInstance;
 
-    fetch("./data.json")
-        .then(response => response.json())
-        .then(data => {
-            console.log("Data Loaded: ", data);
-            filter.addEventListener("change", () => updateChart(data));
-            updateChart(data);
-        })
-        .catch(error => console.error("Error loading JSON:", error));
+    function fetchLiveData() {
+        return new Promise((resolve) => {
+            const storedData = localStorage.getItem("participants");
+            if (storedData) {
+                resolve(JSON.parse(storedData));
+            } else {
+                fetch("./data.json")
+                    .then(response => response.json())
+                    .then(data => resolve(data))
+                    .catch(error => {
+                        console.error("Error loading JSON:", error);
+                        resolve([]);
+                    });
+            }
+        });
+    }
+    
+    
 
-    function updateChart(data) {
+    async function updateChart() {
+        const data = await fetchLiveData();
         const selectedFilter = filter.value;
 
         let labels = [];
         let dataset = [];
-
-        // Track eliminations per round
         const rounds = {};
+
         data.forEach(participant => {
             if (participant.status === "Eliminated") {
                 rounds[participant.rounds_survived] = (rounds[participant.rounds_survived] || 0) + 1;
             }
         });
 
-        // Get sorted round numbers
         labels = Object.keys(rounds).sort((a, b) => a - b);
         dataset = labels.map(round => rounds[round]);
 
-        // Track remaining participants per round
         let totalParticipants = data.length;
         let remainingParticipants = totalParticipants;
         let remainingDataset = [];
@@ -42,15 +49,12 @@ document.addEventListener("DOMContentLoaded", () => {
             remainingDataset.push(remainingParticipants);
         });
 
-        // Update remaining participants count
         remainingCountElement.textContent = `Participants Remaining: ${remainingParticipants}`;
 
-        // Destroy previous chart
         if (chartInstance) {
             chartInstance.destroy();
         }
 
-        // Create new chart
         chartInstance = new Chart(ctx, {
             type: "line",
             data: {
@@ -59,15 +63,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     {
                         label: "Eliminations per Round",
                         data: dataset,
-                        borderColor: "#e93e7d",
-                        backgroundColor: "rgba(233, 62, 125, 0.2)",
+                        borderColor: "#ff4d6d",
+                        backgroundColor: "rgba(255, 77, 109, 0.2)",
                         fill: true
                     },
                     {
                         label: "Participants Remaining",
                         data: remainingDataset,
-                        borderColor: "#007bff",
-                        backgroundColor: "rgba(0, 123, 255, 0.2)",
+                        borderColor: "#00c8ff",
+                        backgroundColor: "rgba(0, 200, 255, 0.2)",
                         fill: true
                     }
                 ]
@@ -94,4 +98,11 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     }
+
+    filter.addEventListener("change", updateChart);
+
+    // Update chart when clicking "Analytics" button
+    document.getElementById("analyticsButton").addEventListener("click", updateChart);
+
+    updateChart();
 });

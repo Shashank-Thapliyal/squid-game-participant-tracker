@@ -6,6 +6,7 @@
     <title>Squid Game Tracker - Dashboard</title>
     <link rel="stylesheet" href="assets/CSS/dashboard.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 </head>
 <body id="dashboard">
@@ -23,25 +24,72 @@
                 </li>
                 <li>
                     <i class="fas fa-chart-bar"></i>
-                    <span class="text">Statistics</span>
+                    <span class="text"  onclick="openStatsModal()">Statistics</span>
                 </li>
             </ul>
         </div>
     
 
             <h1>Squid Game Participants</h1>
-    
-            <div class="controls">
-                <input type="text" id="search" placeholder="Search by Number...">
-                <select id="filter">
-                    <option value="All">All</option>
-                    <option value="Alive">Alive</option>
-                    <option value="Eliminated">Eliminated</option>
-                </select>
+
+            <div class="dashboard-header">
+              
+            
+                <div class="controls">
+                    <input type="text" id="search" placeholder="Search by Number...">
+                    <select id="filter">
+                        <option value="All">All</option>
+                        <option value="Alive">Alive</option>
+                        <option value="Eliminated">Eliminated</option>
+                    </select>
+                </div>
+
+                <div class="dashboard-buttons">
+                    <button id="startRound">Start Round</button>
+                    <button id="easterEgg">Easter Egg</button>
+                </div>
+
+               
+
             </div>
+
+
     
     
     <div id="participantsContainer" class="grid"></div>
+
+    <!-- Winner Celebration Modal -->
+<div id="winnerModal" class="modal">
+    <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <canvas id="confetti-canvas"></canvas> <!-- Confetti Effect -->
+        <div id="winnerDetails"></div>
+    </div>
+</div>
+
+<!-- Statistics Modal -->
+<div id="statsModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeStatsModal()">&times;</span>
+        
+        <div class="container">
+            <h2 id="remainingCount"> </h2>
+
+            <h1>Squid Game Tracker</h1>
+
+            <label for="filter">Select Filter:</label>
+            <select id="filter">
+                <option value="age">Age</option>
+                <option value="location">Location</option>
+                <option value="eliminations">Eliminations</option>
+            </select>
+
+            <div class="chart-container">
+                <canvas id="chartCanvas"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
 
     <script src="JS/dashboard.js"></script>
 </body>
