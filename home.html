@@ -13,7 +13,7 @@
   </head>
   <body>
     <header class="logo">
-      <img src="./Assets/pic2.webp" alt="" />
+      <img src="/Assets/pic2.webp" alt="" />
     </header>
 
     <div id="tsparticles"></div>
@@ -40,15 +40,23 @@
           cards showcasing their key information. Uncover the stories behind
           those who dared to play the game.
         </p>
-        <div class="button-container">
-          <button class="neon-button" > <a href="./dashboard.html" style="border: none; list-style-type: none; text-decoration: none;">START TRACKING</a></button>
-        </div>
+        <button type="button" class="btn" onclick="reset()">
+          <strong>Start Tracking</strong>
+          <div id="container-stars">
+            <div id="stars"></div>
+          </div>
+
+          <div id="glow">
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+        </button>
       </div>
 
       <div class="swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="/Assets/test1.jpeg.jpg" />
+            <img src="/Assets/test1.jpg" />
             <div class="overlay">
               <h1>New York Sightseeing Tour</h1>
               <p>
@@ -138,12 +146,10 @@
     </section>
 
     <script src="HomeAnimation.js"></script>
-
     <script>
-        function browse(){
-            console.log("nbtnrjdsjfl")
-            window.location = "./dashboard.html"
-        }
+       function reset() {
+          window.location='dashboard.html';
+       }
     </script>
   </body>
 </html>
